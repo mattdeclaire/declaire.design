@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Http\Controllers;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', fn() => view('homepage'));
-Route::get('about', fn() => view('about'));
-Route::get('portfolio', fn() => view('portfolio'));
-Route::get('process', fn() => view('process'));
-Route::get('contact', fn() => view('contact'));
+Route::get('/', [PublicController::class, 'homepage']);
+Route::get('about', [PublicController::class, 'about']);
+Route::get('portfolio', [PublicController::class, 'portfolio']);
+Route::get('process', [PublicController::class, 'process']);
+Route::get('contact', [PublicController::class, 'contact']);
