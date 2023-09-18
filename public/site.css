@@ -65,6 +65,15 @@ body {
     background-color: #333;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #CCC;
+    font: 1rem Verdana;
+    background-color: #333;
+}
+
 main {
     background-color: rgb(240, 238, 235);
 }
@@ -79,13 +88,46 @@ section {
     padding: 2rem 0;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
+.card {
+    display: inline-block;
     padding: 30px;
-    color: #CCC;
-    font: 1rem Verdana;
-    background-color: #333;
+    border-radius: 1rem;;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
+}
+
+.testimonial {
+    font-size: 1.5em;
+    /* background: #CCC; */
+    border-left: 5px solid #BBB;
+    margin: 1.5em 10px;
+    padding: 0.5em 1.5em;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-style: italic;
+}
+
+.testimonial::before {
+    color: #FFF;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.1em;
+    vertical-align: -0.4em;
+}
+
+.testimonial p {
+    display: inline;
+}
+
+.testimonial cite {
+    display: block;
+    margin-right: 1em;
+    text-align: right;
+    font-style: normal;
+}
+
+.testimonial cite::before {
+    content: " - ";
 }
 
 /* HEADER */
@@ -171,5 +213,12 @@ header {
 #site-nav a.btn:active {
     box-shadow: rgba(0, 0, 0, 0.05) 0 2px 4px;
     transform: translateY(0);
+}
+
+/* PAGE CONTENT */
+
+#home-banner {
+    min-height: calc(100vh - 161px);
+    background: center / cover no-repeat url('/images/spacejoy.jpg');
 }
 
