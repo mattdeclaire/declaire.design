@@ -96,6 +96,10 @@ section {
     box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
 }
 
+input.invalid {
+    background-color: red;
+}
+
 /* HEADER */
 
 header {

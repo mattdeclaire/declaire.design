@@ -31,9 +31,4 @@ class PublicController extends Controller
     {
         return view('process');
     }
-
-    public function contact()
-    {
-        return view('contact');
-    }
 }
