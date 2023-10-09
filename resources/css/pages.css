@@ -1,0 +1,37 @@
+#home-banner {
+    min-height: calc(100vh - 161px);
+    background: center / cover no-repeat url("../assets/spacejoy.jpg");
+}
+
+.testimonial {
+    font-size: 1.5em;
+    border-left: 5px solid #BBB;
+    margin: 1.5em 10px;
+    padding: 0.5em 1.5em;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-style: italic;
+
+    &::before {
+        color: #FFF;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.1em;
+        vertical-align: -0.4em;
+    }
+
+    & p {
+        display: inline;
+    }
+
+    & cite {
+        display: block;
+        margin-right: 1em;
+        text-align: right;
+        font-style: normal;
+
+        &::before {
+            content: " - ";
+        }
+    }  
+}

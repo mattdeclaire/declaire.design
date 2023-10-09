@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #333;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #CCC;
+    font: 1rem Verdana;
+    background-color: #333;
+}
+
+main {
+    background-color: rgb(240, 238, 235);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-content {
+    width: 1200px;
+    padding: 2rem 0;
+}
+
+.card {
+    display: inline-block;
+    padding: 30px;
+    border-radius: 1rem;;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
+}
+
+input.invalid {
+    background-color: red;
+}
