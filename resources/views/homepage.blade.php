@@ -2,10 +2,7 @@
 @section('content')
 
     <x-section id="home-banner">
-        <x-card>
-            <h1>Welcome to DeClaire Design.</h1>
-            <p>We're here to help.</p>
-        </x-card>
+        <h1>Experience professional design every day in your own home.</h1>
     </x-section>
 
     <x-section>

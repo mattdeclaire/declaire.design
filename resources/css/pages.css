@@ -1,6 +1,14 @@
 #home-banner {
-    min-height: calc(100vh - 161px);
-    background: center / cover no-repeat url("../assets/spacejoy.jpg");
+    min-height: calc(100vh - 82px);
+    background: fixed center / cover no-repeat url("../assets/spacejoy.jpg");
+
+    & h1 {
+        font-size: calc(2rem + 5vw);
+        line-height: 110%;
+        color: white;
+        text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px;
+        padding: 10vw 5vw;
+    }
 }
 
 .testimonial {

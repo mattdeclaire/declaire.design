@@ -33,7 +33,7 @@ a:not([class]) {
     text-decoration-skip-ink: auto;
 }
 
-img {
+img, picture, video {
     max-width: 100%;
     display: block;
 }
