@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PublicController::class, 'homepage']);
-Route::get('about', [PublicController::class, 'about']);
-Route::get('portfolio', [PublicController::class, 'portfolio']);
-Route::get('process', [PublicController::class, 'process']);
+// Route::get('about', [PublicController::class, 'about']);
+// Route::get('portfolio', [PublicController::class, 'portfolio']);
+// Route::get('process', [PublicController::class, 'process']);
 
-Route::get('contact', [ContactController::class, 'show']);
-Route::post('contact', [ContactController::class, 'send']);
+// Route::get('contact', [ContactController::class, 'show']);
+// Route::post('contact', [ContactController::class, 'send']);
