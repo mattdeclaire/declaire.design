@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #333;
+    font-family: Georgia;
 }
 
 footer {
@@ -9,11 +9,7 @@ footer {
     padding: 30px;
     color: #CCC;
     font: 1rem Verdana;
-    background-color: #333;
-}
-
-main {
-    background-color: rgb(240, 238, 235);
+    background-color: var(--color-dark);
 }
 
 section {
@@ -22,10 +18,32 @@ section {
 }
 
 .section-content {
+    width: 100%;
     max-width: 1200px;
-    padding: 2rem 0;
+    padding: 2rem;
 }
 
 input.invalid {
     background-color: red;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
+    transition: all 250ms;
+    text-decoration: none;
+    color: #333;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
+        transform: translateY(1px);
+    }
+
+    &:active {
+        box-shadow: rgba(0, 0, 0, 0.05) 0 2px 4px;
+        transform: translateY(0);
+    }
 }

@@ -43,14 +43,15 @@ header {
         & a {
             display: inline-block;
             position: relative;
-            margin: 0 5px;
-            padding: 8px 5px;
-            font-family: Verdana, serif;
+            font-family: Verdana, sans-serif;
             text-decoration: none;
             color: #333;
             text-transform: uppercase;
 
             &:not(.btn) {
+                margin: 0 5px;
+                padding: 8px 5px;
+
                 &::after {
                     content: '';
                     position: absolute;
@@ -67,24 +68,6 @@ header {
         
                 &:hover::after {
                     transform: scaleX(1);
-                }
-            }
-        
-            &.btn {
-                padding: 5px 10px;
-                background-color: white;
-                border-radius: 0.25rem;
-                box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
-                transition: all 250ms;
-
-                &:hover {
-                    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
-                    transform: translateY(1px);
-                }
-            
-                &:active {
-                    box-shadow: rgba(0, 0, 0, 0.05) 0 2px 4px;
-                    transform: translateY(0);
                 }
             }
         }

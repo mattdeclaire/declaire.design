@@ -3,43 +3,64 @@
     background: fixed center / cover no-repeat url("../assets/spacejoy.jpg");
 
     & h1 {
-        font-size: calc(2rem + 5vw);
+        font-size: calc(2rem + 3vw);
         line-height: 110%;
         color: white;
         text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px;
-        padding: 10vw 5vw;
+        padding: 25vh 5vw;
     }
 }
 
-.testimonial {
-    font-size: 1.5em;
-    border-left: 5px solid #BBB;
-    margin: 1.5em 10px;
-    padding: 0.5em 1.5em;
-    quotes: "\201C""\201D""\2018""\2019";
-    font-style: italic;
+#about {
+    color: #FFF;
+    background-color: var(--color-primary);
+    font-size: 24px;
+}
 
-    &::before {
-        color: #FFF;
-        content: open-quote;
-        font-size: 4em;
-        line-height: 0.1em;
-        margin-right: 0.1em;
-        vertical-align: -0.4em;
-    }
+#testimonials {
+    background-color: var(--color-alternate);
 
-    & p {
-        display: inline;
-    }
-
-    & cite {
-        display: block;
-        margin-right: 1em;
-        text-align: right;
-        font-style: normal;
-
+    & blockquote {
+        font-size: 1.5em;
+        border-left: 5px solid #BBB;
+        margin: 1.5em 10px;
+        padding: 0.5em 1.5em;
+        font-style: italic;
+    
         &::before {
-            content: " - ";
+            color: #FFF;
+            content: open-quote;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.1em;
+            vertical-align: -0.4em;
         }
-    }  
+    
+        & p {
+            display: inline;
+        }
+    
+        & cite {
+            display: block;
+            margin-right: 1em;
+            text-align: right;
+            font-style: normal;
+    
+            &::before {
+                content: " - ";
+            }
+        }  
+    }    
+}
+
+
+#home-contact {
+    color: #FFF;
+    font-size: 1.4rem;
+    background-color: var(--color-secondary);
+    text-align: center;
+
+    & a.btn {
+        margin-top: 1em;
+    }
 }
