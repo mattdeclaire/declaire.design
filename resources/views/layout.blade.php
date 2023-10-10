@@ -11,8 +11,7 @@
         <header>
             <div id="header-content">
                 <a href="/" id="logo">DeClaire Design</a>
-
-                {{-- @include('nav') --}}
+                @include('nav')
             </div>
         </header>
 
