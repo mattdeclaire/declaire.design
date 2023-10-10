@@ -2,8 +2,8 @@
 @section('title', "Contact")
 @section('content')
 
-    <x-section>
-        <h1>Contact me.</h1>
+    <x-section id="contact">
+        <h1>Let's get started.</h1>
 
         @if (session('message-sent'))
 
@@ -41,7 +41,7 @@
                 <input
                     type="text"
                     name="referrer"
-                    placeholder="How id you hear about me?"
+                    placeholder="How did you hear about me?"
                     class="@error('referrer') invalid @enderror"
                     value="{{old('referrer')}}"
                 /><br>
@@ -50,6 +50,7 @@
                     name="message"
                     placeholder="How can I help you?"
                     class="@error('message') invalid @enderror"
+                    rows="10"
                 >{{old('message')}}</textarea><br>
 
                 <button type="submit">Send</button>
@@ -64,6 +65,8 @@
             </form>
 
         @endif
+
+        <p>Or if you'd prefer, you can send me an email at <a href="mailto:katie@declaire.design">katie@declaire.design</a>.</p>
     </x-section>
 
 @endsection

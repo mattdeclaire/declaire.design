@@ -21,6 +21,8 @@ class ContactController extends Controller
             'message' => '',
         ]);
 
+        // TODO: recaptcha
+
         // TODO: Send to self, save in DB;
 
         return back()->with('message-sent', true);

@@ -53,7 +53,6 @@
     }    
 }
 
-
 #home-contact {
     color: #FFF;
     font-size: 1.4rem;
@@ -62,5 +61,18 @@
 
     & a.btn {
         margin-top: 1em;
+    }
+}
+
+#contact {
+    & h1 {
+        margin-bottom: 1rem;
+        color: var(--color-dark);
+    }
+
+    background-color: var(--color-alternate);
+
+    & form {
+        margin-bottom: 1rem;
     }
 }

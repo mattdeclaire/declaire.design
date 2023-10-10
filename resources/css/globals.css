@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Georgia;
+    background-color: var(--color-dark);
 }
 
 footer {
@@ -23,14 +24,38 @@ section {
     padding: 2rem;
 }
 
-input.invalid {
-    background-color: red;
+a {
+    color: var(--color-link);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
-a.btn {
+form {
+    max-width: 400px;
+
+    & input,
+    & textarea {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 0.2rem 0.4rem;
+        border: 1px solid #CCC;
+        border-radius: 0.2rem;
+    
+        &.invalid {
+            background-color: rgb(250, 223, 223);
+        }
+    }
+}
+
+a.btn,
+button {
     display: inline-block;
     padding: 0.5rem 1.2rem;
     background-color: white;
+    border: 1px solid #CCC;
     border-radius: 0.25rem;
     box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
     transition: all 250ms;
