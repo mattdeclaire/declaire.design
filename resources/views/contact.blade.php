@@ -11,7 +11,7 @@
 
         @else
 
-            <form method="post" action="/contact">
+            <form method="post" id="contact-form" action="/contact">
                 @csrf
 
                 <input
@@ -53,7 +53,14 @@
                     rows="10"
                 >{{old('message')}}</textarea><br>
 
-                <button type="submit">Send</button>
+                <button
+                    class="g-recaptcha"
+                    data-sitekey="{{ config('services.recaptcha.key')}}"
+                    data-callback="recaptcha"
+                    data-action="submit"
+                >
+                    Send
+                </button>
 
                 @if ($errors->any())
                     <ul>

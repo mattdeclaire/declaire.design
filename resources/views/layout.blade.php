@@ -6,6 +6,7 @@
 
         <title>@yield('title', config('app.name'))</title>
         @vite(['resources/css/site.css', 'resources/js/site.js'])
+        <script src="https://www.google.com/recaptcha/api.js"></script>
     </head>
     <body>
         <header>
