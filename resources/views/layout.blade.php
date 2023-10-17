@@ -7,8 +7,8 @@
         <title>@yield('title', config('app.name'))</title>
         @vite(['resources/css/site.css', 'resources/js/site.js'])
 
-        <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.key')}}"></script>
-        <meta name="recaptcha_key" content="{{ config('services.recaptcha.key')}}">
+        {{-- <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.key')}}"></script> --}}
+        {{-- <meta name="recaptcha_key" content="{{ config('services.recaptcha.key')}}"> --}}
     </head>
     <body>
         <header>
