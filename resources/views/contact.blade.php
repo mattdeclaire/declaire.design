@@ -53,14 +53,11 @@
                     rows="10"
                 >{{old('message')}}</textarea><br>
 
-                <button
-                    class="g-recaptcha"
-                    data-sitekey="{{ config('services.recaptcha.key')}}"
-                    data-callback="recaptcha"
-                    data-action="submit"
-                >
+                <button type="submit">
                     Send
                 </button>
+
+                <input type="hidden" name="recaptcha" />
 
                 @if ($errors->any())
                     <ul>

@@ -20,7 +20,7 @@ class ContactController extends Controller
             'email' => '',
             'referrer' => '',
             'message' => '',
-            'g-recaptcha-response' => new RecaptchaRule,
+            'recaptcha' => new RecaptchaRule,
         ]);
 
         // TODO: save to DB, and send to self
