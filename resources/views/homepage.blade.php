@@ -21,7 +21,7 @@
 
     <x-section id="home-contact">
         <p>Reach out today, and let's get started.</p>
-        <a href="/contact" class="btn">Contact Me</a>
+        <a href="mailto:{{ config('mail.contact') }}" target="_blank" class="btn">Contact Me</a>
     </x-section>
 
 @endsection

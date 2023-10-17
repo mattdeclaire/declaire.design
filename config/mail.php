@@ -2,6 +2,12 @@
 
 return [
 
+
+    /*
+    | Email address for the public to use for contact info.
+    */
+    'contact' => env('MAIL_CONTACT_ADDRESS', 'katie@declaire.design'),
+
     /*
     |--------------------------------------------------------------------------
     | Default Mailer
@@ -99,8 +105,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'katie@declaire.design'),
+        'name' => env('MAIL_FROM_NAME', 'Katie DeClaire'),
     ],
 
     /*

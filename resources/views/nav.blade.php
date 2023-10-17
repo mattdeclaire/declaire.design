@@ -10,6 +10,6 @@
         {{-- <li><a href="/about">About</a></li> --}}
         {{-- <li><a href="/portfolio">Portfolio</a></li> --}}
         {{-- <li><a href="/process">Process</a></li> --}}
-        <li><a href="/contact" class="btn">Contact</a></li>
+        <li><a href="mailto:{{ config('mail.contact') }}" target="_blank" class="btn">Contact</a></li>
     </ol>
 </nav>
