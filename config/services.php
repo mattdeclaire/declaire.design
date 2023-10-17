@@ -31,6 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'google-analytics' => [
+        'key' => env('GOOGLE_ANALYTICS_KEY', 'G-V584YJ0SQT'),
+    ],
+
     'recaptcha' => [
         'key' => env('RECAPTCHA_KEY'),
         'secret' => env("RECAPTCHA_SECRET"),
