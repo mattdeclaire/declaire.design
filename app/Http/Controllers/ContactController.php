@@ -2,10 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Rules\RecaptchaRule;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Log;
-use Illuminate\Validation\ValidationException;
 
 class ContactController extends Controller
 {
@@ -22,33 +20,10 @@ class ContactController extends Controller
             'email' => '',
             'referrer' => '',
             'message' => '',
+            'g-recaptcha-response' => new RecaptchaRule,
         ]);
 
-        $recaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => config('services.recaptcha.secret'),
-            'response' => $request->input('g-recaptcha-response'),
-            'remoteip' => $request->ip(),
-        ])->json();
-
-        if (!$recaptcha['success']) {
-            Log::info("failed recaptcha", [
-                'errors' => $recaptcha['error-codes'],
-            ]);
-
-            throw ValidationException::withMessages([
-                '*' => "We've encountered an error. Please try again later.",
-            ]);
-        }
-
-        // TODO: save to DB
-
-        if ($recaptcha['score'] < 0.5) {
-            throw ValidationException::withMessages([
-                '*' => "something went wrong",
-            ]);
-        } else {
-            // TODO: Send to self
-        }
+        // TODO: save to DB, and send to self
 
         return back()->with('message-sent', true);
     }
