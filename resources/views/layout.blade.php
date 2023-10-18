@@ -22,7 +22,9 @@
     <body>
         <header>
             <div id="header-content">
-                <a href="/" id="logo">DeClaire Design</a>
+                <a href="/" id="logo">
+                    <img src="/logo.png" alt="DeClaire Design" />
+                </a>
                 @include('nav')
             </div>
         </header>
