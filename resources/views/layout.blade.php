@@ -23,7 +23,7 @@
         <header>
             <div id="header-content">
                 <a href="/" id="logo">
-                    <img src="/logo.png" alt="DeClaire Design" width="188" height="80" />
+                    <img src="{{ Vite::asset('resources/assets/logo.png') }}" alt="DeClaire Design" width="188" height="80" />
                 </a>
                 @include('nav')
             </div>
