@@ -2,7 +2,7 @@
 @section('content')
 
     <x-section id="home-banner">
-        <h1>Experience professional design every day in your own home.</h1>
+        <h1>Professional design for everyday living.</h1>
     </x-section>
 
     <x-section id="about">
