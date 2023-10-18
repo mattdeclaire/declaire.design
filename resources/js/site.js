@@ -1,2 +1,2 @@
 import './bootstrap';
-import './recaptcha';
+// import './recaptcha';
