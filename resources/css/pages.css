@@ -11,6 +11,12 @@
     }
 }
 
+@media only screen and (max-device-width: 1366px) {
+    #home-banner {
+       background-attachment: scroll;
+    }
+}
+
 #about {
     color: #FFF;
     background-color: var(--color-primary);
