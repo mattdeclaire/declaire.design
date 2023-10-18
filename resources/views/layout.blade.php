@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title', config('app.name'))</title>
+        <title>@yield('title', "DeClaire Design")</title>
 
         <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('services.google-analytics.key') }}"></script>
         <script>
@@ -32,7 +32,7 @@
         </main>
 
         <footer>
-            &copy;{{date('Y')}}. {{config('app.name')}}. All Rights Reserved.
+            &copy;{{date('Y')}}. DeClaire Design. All Rights Reserved.
         </footer>
     </body>
 </html>
