@@ -32,7 +32,7 @@ return [
     ],
 
     'google-analytics' => [
-        'key' => env('GOOGLE_ANALYTICS_KEY', 'G-V584YJ0SQT'),
+        'key' => env('GOOGLE_ANALYTICS_KEY'),
     ],
 
     'recaptcha' => [
