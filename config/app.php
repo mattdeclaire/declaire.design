@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://www.declaire.design'),
+    'url' => env('APP_URL', 'https://declaire.design'),
 
     'asset_url' => env('ASSET_URL'),
 
