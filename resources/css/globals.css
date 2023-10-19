@@ -1,15 +1,5 @@
 body {
-    margin: 0;
     font-family: Georgia;
-    background-color: var(--color-dark);
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    color: #CCC;
-    font: 1rem Verdana;
     background-color: var(--color-dark);
 }
 
@@ -55,20 +45,19 @@ button {
     display: inline-block;
     padding: 0.5rem 1.2rem;
     background-color: white;
-    border: 1px solid #CCC;
+
     border-radius: 0.25rem;
-    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     transition: all 250ms;
+
     text-decoration: none;
     color: #333;
 
     &:hover {
-        box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
-        transform: translateY(1px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     }
 
     &:active {
-        box-shadow: rgba(0, 0, 0, 0.05) 0 2px 4px;
-        transform: translateY(0);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     }
 }

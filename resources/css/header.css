@@ -6,7 +6,7 @@ header {
     transition: all 250ms;
     font-size: 16px;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 2px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 #header-content {
