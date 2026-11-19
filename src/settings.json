@@ -1,0 +1,13 @@
+{
+  "name": "DeClaire Design",
+  "tagline": "Professional design for everyday living.",
+  "description": "DeClaire Design is the interior design studio of Katie DeClaire in the San Francisco Bay Area.",
+  "email": "katie@declaire.design",
+  "instagram": "https://www.instagram.com/katiedeclairedesign/",
+  "nav": [
+    { "label": "Work", "href": "/work" },
+    { "label": "About", "href": "/about" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Contact", "href": "/contact" }
+  ]
+}

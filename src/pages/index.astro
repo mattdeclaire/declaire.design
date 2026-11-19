@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import ProjectGrid from '../components/ProjectGrid.astro';
+import settings from '../settings.json';
+import { getProjects } from '../projects';
+import { url } from '../url';
+
+const featured = (await getProjects()).filter((p) => p.data.featured);
+---
+<Base>
+  <section class="section container hero">
+    <p class="eyebrow">{settings.name}</p>
+    <h1 class="display">{settings.tagline}</h1>
+    <p>Interior design for homes in the San Francisco Bay Area.</p>
+    <a class="button" href={url('/contact')}>Start a project</a>
+  </section>
+
+  {featured.length > 0 && (
+    <section class="container">
+      <p class="eyebrow">Selected work</p>
+      <ProjectGrid projects={featured} />
+      <p class="more"><a href={url('/work')}>See all projects</a></p>
+    </section>
+  )}
+</Base>
+
+<style>
+  .display { font-size: var(--text-display); max-width: 16ch; }
+  .more { margin-top: var(--space-4); }
+</style>

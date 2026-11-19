@@ -1,0 +1,16 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from './Base.astro';
+
+interface Props { slug: string }
+const entry = await getEntry('pages', Astro.props.slug);
+if (!entry) throw new Error(`Missing src/content/pages/${Astro.props.slug}.md`);
+const { Content } = await render(entry);
+---
+<Base title={entry.data.title} description={entry.data.description}>
+  <section class="section container">
+    <h1>{entry.data.heading ?? entry.data.title}</h1>
+    <div class="prose"><Content /></div>
+    <slot />
+  </section>
+</Base>
