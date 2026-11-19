@@ -1,0 +1,12 @@
+---
+import { Image } from 'astro:assets';
+import TextPage from '../layouts/TextPage.astro';
+import headshot from '../assets/katie.jpg';
+---
+<TextPage slug="about">
+  <Image class="headshot" src={headshot} alt="Portrait of Katie DeClaire" widths={[400, 800]} sizes="(max-width: 700px) 100vw, 400px" />
+</TextPage>
+
+<style>
+  .headshot { margin-top: var(--space-4); max-width: 25rem; }
+</style>

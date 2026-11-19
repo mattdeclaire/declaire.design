@@ -1,0 +1,21 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import { url } from '../url';
+
+interface Props { project: CollectionEntry<'projects'> }
+const { project } = Astro.props;
+const { title, location, year, cover, coverAlt } = project.data;
+---
+<a class="card" href={url(`/work/${project.id}`)}>
+  <Image src={cover} alt={coverAlt} widths={[400, 800, 1200]} sizes="(max-width: 700px) 100vw, 33vw" />
+  <h2>{title}</h2>
+  <p>{[location, year].filter(Boolean).join(' · ')}</p>
+</a>
+
+<style>
+  .card { display: grid; gap: var(--space-1); text-decoration: none; color: inherit; }
+  .card :global(img) { aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
+  h2 { font-size: var(--text-lg); margin: var(--space-1) 0 0; }
+  p { color: var(--color-muted); font-size: var(--text-sm); margin: 0; }
+</style>
