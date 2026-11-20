@@ -18,6 +18,7 @@ This is the website for **DeClaire Design**, Katie DeClaire's interior design bu
 | Page layouts and components | `src/pages/`, `src/layouts/`, `src/components/` |
 | Business context, brand, decisions | `brain/` |
 | The brief for designing in Claude Design | `brain/design-brief.md` |
+| How Katie sets up and works with Claude (walk her through it when she asks) | `brain/working-with-claude.md` |
 
 Most requests touch only `src/content/`, `src/settings.json`, `src/styles/tokens.css` and `brain/`.
 
