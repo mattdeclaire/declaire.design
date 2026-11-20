@@ -19,7 +19,7 @@ Katie needs three things. Matt does step 2.
 A Claude Project keeps the site's background in every chat, so Katie doesn't add it each time.
 
 1. In Claude, create a project called "DeClaire Design website". Keep it unshared, because GitHub files can only be added to a private project.
-2. In the project knowledge, click **+** → **GitHub**, choose `mattdeclaire/declaire.design`, and add the `brain` folder and `CLAUDE.md`. Re-sync them after the repo changes.
+2. In the project knowledge, click **+** → **GitHub**, choose `mattdeclaire/declaire.design`, and add the `brain` folder and `CLAUDE.md`.
 3. Set the project instructions to: *This project is for the DeClaire Design website. Follow CLAUDE.md and the brain folder. Start with brain/working-with-claude.md when I ask what to do next.*
 
 If **Design** isn't offered as an output in a chat inside the project, start the design in a regular chat as described below.
