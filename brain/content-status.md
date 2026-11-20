@@ -1,13 +1,15 @@
 # Content status
 
-What's real, what's a placeholder, and what to ask Katie. Update this as answers come in.
+What's real, what's missing, and what to ask Katie. Update this as answers come in.
+
+**The site is live at declaire.design, so notes and placeholders are never visitor-facing.** Put them in code comments (a `# TODO(Katie): …` line in Markdown front matter), leave the field out, or keep the project as `draft: true` until Katie supplies the real content.
 
 ## Projects
 
 | Project | In repo | Status | Open questions |
 | --- | --- | --- | --- |
-| Modern Home (Benicia, 2022) | Yes, 8 photos | Photos and alt text in. Story is a placeholder | The story; services involved |
-| Mid-Century (San Jose, 2024) | Yes, 9 photos | Photos and alt text in. Story is a placeholder | The story; services involved |
+| Modern Home (Benicia, 2022) | Yes, 8 photos | Photos and alt text in. No story yet | The story; services involved |
+| Mid-Century (San Jose, 2024) | Yes, 9 photos | Photos and alt text in. No story yet | The story; services involved |
 | Tahoe Cabin (Kings Beach, 2025) | No | 10 photos in Matt's archive | Usage rights for the listing photos |
 | "Elise Bisbee" (2024) | No | 5 photos in Matt's archive | Named after a client: OK to use the name? Location? |
 | "Hanh" (2024) | No | 1 photo in Matt's archive | Named after a client: OK to use the name? Location? More photos? |
@@ -19,8 +21,8 @@ Matt has the archived photos for the three projects not yet in the repo, with lo
 | Page | Status |
 | --- | --- |
 | Home | Tagline and featured projects. Needs an intro line Katie likes |
-| About | Katie's 2023 paragraph plus a headshot. Needs a fuller bio in her words |
-| Services | Draft list, **unconfirmed** |
+| About | Katie's 2023 paragraph plus a headshot. Could use a fuller bio in her words |
+| Services | **Removed from the site** until Katie confirms the list (draft is in [business.md](business.md)) |
 | Contact | Email only. A form (hosted form service) is planned |
 
 ## Don't use without Katie confirming

@@ -1,8 +1,9 @@
 ---
+# TODO(Katie): add a few sentences below the front matter about the clients, the brief and what changed.
+# TODO(Katie): list the services involved under `services`.
 title: Mid-Century
 location: San Jose, CA
 year: 2024
-summary: A warm, collected mid-century home with built-in shelving, bold art and vintage pieces.
 cover: ./01.jpg
 coverAlt: Open living room with a cognac leather sectional, a colorful patterned rug and large windows
 images:
@@ -26,5 +27,3 @@ services: []
 featured: true
 order: 2
 ---
-
-[Project story to come. Katie to write a few sentences about the clients, the brief and what changed.]

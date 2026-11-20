@@ -12,7 +12,7 @@ This is the website for **DeClaire Design**, Katie DeClaire's interior design bu
 | To change… | Edit… |
 | --- | --- |
 | A project | `src/content/projects/<project>/index.md` and the photos next to it |
-| About, Services or Contact text | `src/content/pages/<page>.md` |
+| About or Contact text (add a Services page once Katie confirms the list) | `src/content/pages/<page>.md` |
 | Business name, tagline, email, Instagram, menu | `src/settings.json` |
 | Colors, fonts, sizes, spacing | `src/styles/tokens.css` |
 | Page layouts and components | `src/pages/`, `src/layouts/`, `src/components/` |
@@ -30,7 +30,8 @@ Most requests touch only `src/content/`, `src/settings.json`, `src/styles/tokens
 
 ## Rules
 
-- **Never invent facts about Katie or her work:** credentials, experience, quotes, clients, testimonials, awards. Use a clear placeholder like `[Story to come]` and ask her.
+- **Never invent facts about Katie or her work:** credentials, experience, quotes, clients, testimonials, awards. Leave it out and ask her. Use `draft: true` to hold back a project that isn't ready.
+- **Notes are never visitor-facing.** The site is live, so anything like "[Story to come]" or "Katie to confirm" goes in a code comment, never in page text. In Markdown front matter use a YAML comment (`# TODO(Katie): …`); in `.astro`, `.ts` and `.css` files use that language's comment.
 - **No client names, addresses or identifying details** unless Katie says they're public. This repository is public.
 - **No stock photos or other designers' work** presented as hers.
 - **Accessibility:** WCAG AA contrast, visible focus states, alt text on every image, and the menu has to work on a phone and with a keyboard.

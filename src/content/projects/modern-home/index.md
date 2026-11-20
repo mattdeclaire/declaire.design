@@ -1,8 +1,9 @@
 ---
+# TODO(Katie): add a few sentences below the front matter about the clients, the brief and what changed.
+# TODO(Katie): list the services involved under `services`.
 title: Modern Home
 location: Benicia, CA
 year: 2022
-summary: A light, relaxed family home with an outdoor living area built around the pool.
 cover: ./01.jpg
 coverAlt: Living room with a cream sofa, a fireplace, a white moose head and ocean artwork above the mantel
 images:
@@ -24,5 +25,3 @@ services: []
 featured: true
 order: 1
 ---
-
-[Project story to come. Katie to write a few sentences about the clients, the brief and what changed.]
