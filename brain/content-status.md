@@ -47,5 +47,4 @@ An April 2026 draft of the site had a bio that looks AI-written: training at the
 - Do you want a contact form, or is email enough? (Her Nov 20 outline asks for one, with a budget/timeline dropdown. Needs her dropdown choices and Matt's form service.)
 - Do you want office hours shown? (Phone number and address stay off the site, per Katie.)
 - What is your Facebook page address?
-- Is the headshot on the About page the one you want to use?
 - Do you have the original logo file, or should the redesign include a new one?
