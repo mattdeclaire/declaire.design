@@ -9,7 +9,7 @@
 
 ## Visual direction
 
-**Open: a redesign is under way in Claude Design.** When it's settled, record the direction here: palette, type, photography style, layout principles, and the reasons behind them.
+**Open: a redesign is under way in Claude Design,** working from [design-brief.md](design-brief.md). When it's settled, record the direction here: palette, type, photography style, layout principles, and the reasons behind them.
 
 The current values in `src/styles/tokens.css` are placeholders carried over from the April 2026 draft.
 
