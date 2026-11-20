@@ -14,6 +14,16 @@ Katie needs three things. Matt does step 2.
     - In Claude: **Customize** → **Connectors** → **GitHub Integration** → **Connect**. This lets her Claude Design and chat sessions read this repo.
     - At claude.ai/code: follow the prompt to connect GitHub. This lets Claude make changes to the site.
 
+### Optional: a Claude Project for the site
+
+A Claude Project keeps the site's background in every chat, so Katie doesn't add it each time.
+
+1. In Claude, create a project called "DeClaire Design website". Keep it unshared, because GitHub files can only be added to a private project.
+2. In the project knowledge, click **+** → **GitHub**, choose `mattdeclaire/declaire.design`, and add the `brain` folder and `CLAUDE.md`. Re-sync them after the repo changes.
+3. Set the project instructions to: *This project is for the DeClaire Design website. Follow CLAUDE.md and the brain folder. Start with brain/working-with-claude.md when I ask what to do next.*
+
+If **Design** isn't offered as an output in a chat inside the project, start the design in a regular chat as described below.
+
 ## Designing the new look
 
 Use Claude Design inside Claude. The older standalone site at claude.ai/design closes on December 14, 2026.
