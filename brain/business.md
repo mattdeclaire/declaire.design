@@ -5,7 +5,7 @@
 - **Business:** DeClaire Design
 - **Designer:** Katie DeClaire
 - **Where:** San Francisco Bay Area. Projects so far are in Benicia, San Jose and Kings Beach (Lake Tahoe).
-- **What:** Residential interior design, specializing in home furnishings and decor.
+- **What:** Interior design. Katie's Nov 2026 site outline and class brochure now lead with restaurants, hotels and living communities (and still mention home remodels). Her 2023 bio was residential, home furnishings and decor.
 - **Background:** Merchandising (from Katie's own 2023 bio).
 - **Email:** katie@declaire.design (Google Workspace)
 - **Instagram:** [@katiedeclairedesign](https://www.instagram.com/katiedeclairedesign/)
@@ -30,7 +30,9 @@
 
 ## Who the site is for
 
-**Unconfirmed.** Homeowners in the Bay Area looking for help furnishing and styling a home, from a single room to a whole house. Ask Katie who her ideal clients are and how they usually find her.
+**Updated Nov 20, 2026 (Katie's outline):** "restaurants, hotels, and living spaces," serving the Bay Area and Northern California. A free consultation is offered. Katie's business development class brochure describes the same focus.
+
+**Older draft (April 2026), now superseded:** Homeowners in the Bay Area looking for help furnishing and styling a home, from a single room to a whole house. Ask Katie who her ideal clients are and how they usually find her.
 
 ## Things we don't know yet
 

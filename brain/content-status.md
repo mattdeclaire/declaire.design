@@ -21,9 +21,18 @@ Matt has the archived photos for the three projects not yet in the repo, with lo
 | Page | Status |
 | --- | --- |
 | Home | Tagline and featured projects. Needs an intro line Katie likes |
-| About | Katie's 2023 paragraph plus a headshot. Could use a fuller bio in her words |
+| About | Rebuilt Nov 20, 2026 from Katie's outline: About us, Our team, Our process. Our services (overview and FAQ) still to come |
 | Services | **Removed from the site** until Katie confirms the list (draft is in [business.md](business.md)) |
-| Contact | Email only. A form (hosted form service) is planned |
+| Contact | Katie's intro line and email. Phone, address and hours not added yet. Form waiting on Matt to choose a hosted form service |
+
+## From Katie's class brochure (Nov 2026), not yet on the site
+
+Katie shared a brochure made for a business development class. **Unconfirmed for the live site:**
+
+- Its services copy (space planning, furniture-fixtures-equipment-color, 3D renderings). Ask Katie whether it should become the Our services section.
+- Three concept projects (Maiden Lane Books, Wildflower Manor, The Velvet Hour), labeled "Concept Design". Need the original image files and her OK to show them, labeled as concept designs.
+- Two more team members and a "Sample Testimonial" appear in the brochure. **Don't use them** unless Katie says they are real, current team members or a real client quote.
+- A phone number, a different contact email and a tagline ("Listening first. Designing thoughtfully."). Ask which she wants public.
 
 ## Don't use without Katie confirming
 
@@ -35,5 +44,8 @@ An April 2026 draft of the site had a bio that looks AI-written: training at the
 - Which services do you offer, and is there one you want to lead with?
 - What should the About page say about your background?
 - Do you have testimonials from clients who are happy to be quoted?
-- Do you want a contact form, or is email enough?
+- Do you want a contact form, or is email enough? (Her Nov 20 outline asks for one, with a budget/timeline dropdown. Needs her dropdown choices and Matt's form service.)
+- What phone number, address and office hours should be public?
+- What is your Facebook page address?
+- Is the headshot on the About page the one you want to use?
 - Do you have the original logo file, or should the redesign include a new one?
