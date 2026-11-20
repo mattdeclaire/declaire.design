@@ -2,7 +2,7 @@
 
 What's real, what's missing, and what to ask Katie. Update this as answers come in.
 
-**The site is live at declaire.design, so never publish placeholder text** (like "[Story to come]"). Leave a field out, or keep the page or project as `draft: true`, until Katie supplies the real content.
+**The site is live at declaire.design, so notes and placeholders are never visitor-facing.** Put them in code comments (a `# TODO(Katie): …` line in Markdown front matter), leave the field out, or keep the project as `draft: true` until Katie supplies the real content.
 
 ## Projects
 

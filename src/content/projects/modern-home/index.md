@@ -1,4 +1,6 @@
 ---
+# TODO(Katie): add a few sentences below the front matter about the clients, the brief and what changed.
+# TODO(Katie): list the services involved under `services`.
 title: Modern Home
 location: Benicia, CA
 year: 2022

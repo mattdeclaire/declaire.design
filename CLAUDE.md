@@ -30,7 +30,8 @@ Most requests touch only `src/content/`, `src/settings.json`, `src/styles/tokens
 
 ## Rules
 
-- **Never invent facts about Katie or her work:** credentials, experience, quotes, clients, testimonials, awards. Leave it out and ask her. The site is live, so never publish placeholder text; use `draft: true` to hold back a project that isn't ready.
+- **Never invent facts about Katie or her work:** credentials, experience, quotes, clients, testimonials, awards. Leave it out and ask her. Use `draft: true` to hold back a project that isn't ready.
+- **Notes are never visitor-facing.** The site is live, so anything like "[Story to come]" or "Katie to confirm" goes in a code comment, never in page text. In Markdown front matter use a YAML comment (`# TODO(Katie): …`); in `.astro`, `.ts` and `.css` files use that language's comment.
 - **No client names, addresses or identifying details** unless Katie says they're public. This repository is public.
 - **No stock photos or other designers' work** presented as hers.
 - **Accessibility:** WCAG AA contrast, visible focus states, alt text on every image, and the menu has to work on a phone and with a keyboard.

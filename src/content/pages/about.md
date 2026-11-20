@@ -1,4 +1,5 @@
 ---
+# TODO(Katie): expand this into a fuller bio in her own words.
 title: About
 description: Katie DeClaire is an interior designer in the San Francisco Bay Area.
 heading: I'm Katie DeClaire.
