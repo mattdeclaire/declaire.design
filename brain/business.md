@@ -7,7 +7,7 @@
 - **Where:** San Francisco Bay Area. Projects so far are in Benicia, San Jose and Kings Beach (Lake Tahoe).
 - **What:** Interior design. Katie's Nov 2026 site outline and class brochure now lead with restaurants, hotels and living communities (and still mention home remodels). Her 2023 bio was residential, home furnishings and decor.
 - **Background:** Merchandising (from Katie's own 2023 bio).
-- **Email:** katie@declaire.design (Google Workspace)
+- **Email:** info@declaire.design is the public contact email (Katie, Nov 20, 2026). Don't show her personal email. Do not list her phone number or address on the site.
 - **Instagram:** [@katiedeclairedesign](https://www.instagram.com/katiedeclairedesign/)
 - **Tagline (since 2023):** "Professional design for everyday living."
 
