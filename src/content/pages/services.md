@@ -6,7 +6,7 @@ heading: Our services
 
 ### Space planning
 
-At DeClaire Design, we begin by listening and asking questions. Learning how your guests, residents, and staff move through your space helps us plan layouts that work for your business. We map traffic flow, test multiple layouts, and deliver scaled floor plans before a single piece is ordered.
+At DeClaire Design, we begin by listening and asking questions. Learning how your family and guests move through your space helps us plan layouts that work for the way you live. We map traffic flow, test multiple layouts, and deliver scaled floor plans before a single piece is ordered.
 
 ### Furniture, fixtures, equipment and color
 
