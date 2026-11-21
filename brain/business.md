@@ -30,7 +30,7 @@
 
 ## Who the site is for
 
-**Updated Nov 20, 2026 (Katie's outline):** "restaurants, hotels, and living spaces," serving the Bay Area and Northern California. A free consultation is offered. Katie's business development class brochure describes the same focus.
+**Updated Nov 20, 2026 (Katie's outline):** "restaurants, hotels, and living spaces," serving the Bay Area and Northern California. **Consultation (Katie, Nov 21, 2026):** not free. It is a 3-hour consultation package, and if the client proceeds, those hours are subtracted from their project fees. Price not given yet. Her outline and brochure still say "free consultation"; the brochure is out of date on this. Katie's business development class brochure describes the same focus.
 
 **Older draft (April 2026), now superseded:** Homeowners in the Bay Area looking for help furnishing and styling a home, from a single room to a whole house. Ask Katie who her ideal clients are and how they usually find her.
 
