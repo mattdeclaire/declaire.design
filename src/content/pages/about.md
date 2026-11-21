@@ -1,8 +1,7 @@
 ---
-# TODO(Katie): expand this into a fuller bio in her own words.
 title: About
-description: Katie DeClaire is an interior designer in the San Francisco Bay Area.
-heading: I'm Katie DeClaire.
+description: DeClaire Design coordinates with architects, contractors and trade partners so your home project stays on schedule and on budget.
+heading: About us
 ---
 
-I'm an interior designer in the San Francisco Bay Area, specializing in home furnishings and decor. With my background in merchandising, I can help you transform your home into a space you love to come home to every day.
+Great spaces take more than good taste. We coordinate with architects, contractors, and trade partners so your project stays on schedule and on budget. From a single room to a whole-home remodel, DeClaire Design handles the details so you can enjoy the result. We also take on select boutique commercial projects.

@@ -1,12 +1,21 @@
 {
   "name": "DeClaire Design",
-  "tagline": "Professional design for everyday living.",
-  "description": "DeClaire Design is the interior design studio of Katie DeClaire in the San Francisco Bay Area.",
-  "email": "katie@declaire.design",
+  "tagline": "Listening first. Designing thoughtfully.",
+  "description": "DeClaire Design is an interior design studio in Benicia, California, specializing in residential design and serving the Bay Area and Northern California.",
+  "email": "info@declaire.design",
   "instagram": "https://www.instagram.com/katiedeclairedesign/",
   "nav": [
-    { "label": "Work", "href": "/work" },
-    { "label": "About", "href": "/about" },
-    { "label": "Contact", "href": "/contact" }
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Projects",
+      "href": "/work"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
   ]
 }

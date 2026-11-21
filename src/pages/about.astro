@@ -1,12 +1,66 @@
 ---
 import { Image } from 'astro:assets';
-import TextPage from '../layouts/TextPage.astro';
+import { getEntry, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
 import headshot from '../assets/katie.jpg';
+
+async function load(slug: string) {
+  const entry = await getEntry('pages', slug);
+  if (!entry) throw new Error(`Missing src/content/pages/${slug}.md`);
+  return { data: entry.data, Content: (await render(entry)).Content };
+}
+const about = await load('about');
+const team = await load('team');
+const services = await load('services');
+const process = await load('process');
 ---
-<TextPage slug="about">
-  <Image class="headshot" src={headshot} alt="Portrait of Katie DeClaire" widths={[400, 800]} sizes="(max-width: 700px) 100vw, 400px" />
-</TextPage>
+<Base title={about.data.title} description={about.data.description}>
+  <div class="container about">
+    <nav class="jump" aria-label="On this page">
+      <a href="#about-us">About us</a>
+      <a href="#our-team">Our team</a>
+      <a href="#our-services">Our services</a>
+      <a href="#our-process">Our process</a>
+    </nav>
+
+    <section id="about-us" class="block">
+      <h1>{about.data.heading}</h1>
+      <div class="prose"><about.Content /></div>
+    </section>
+
+    <section id="our-team" class="block team">
+      <h2>{team.data.heading}</h2>
+      <Image class="headshot" src={headshot} alt="Katie DeClaire smiling, wearing a white shirt and jeans, standing by a window" widths={[400, 800]} sizes="(max-width: 700px) 100vw, 400px" />
+      <div class="prose"><team.Content /></div>
+    </section>
+
+    <section id="our-services" class="block">
+      <h2>{services.data.heading}</h2>
+      <div class="prose services"><services.Content /></div>
+    </section>
+
+    {/* TODO(Katie): add the frequently asked questions under "Our services" once she sends the questions and answers. */}
+
+    <section id="our-process" class="block">
+      <h2>{process.data.heading}</h2>
+      <div class="prose steps"><process.Content /></div>
+    </section>
+  </div>
+</Base>
 
 <style>
-  .headshot { margin-top: var(--space-4); max-width: 25rem; }
+  .about { padding-block: var(--space-4) 0; }
+  .jump { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); margin-bottom: var(--space-4); }
+  .jump a { color: var(--color-body); font-size: var(--text-sm); letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; }
+  .jump a:hover, .jump a:focus-visible { color: var(--color-accent); }
+  .block { padding-block: var(--space-4); scroll-margin-top: var(--space-3); }
+  .block + .block { border-top: 1px solid var(--color-border); }
+  .team { display: grid; gap: var(--space-2) var(--space-4); }
+  .team h2 { grid-column: 1 / -1; margin: 0; }
+  .headshot { width: 100%; max-width: 20rem; }
+  @media (min-width: 700px) { .team { grid-template-columns: 20rem 1fr; align-items: start; } }
+  .services h3 { margin-top: var(--space-3); }
+  .services h3:first-child { margin-top: 0; }
+  .steps ol { padding-left: 1.25rem; max-width: var(--text-width); }
+  .steps li + li { margin-top: var(--space-2); }
 </style>

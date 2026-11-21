@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 import settings from '../settings.json';
+import { Image } from 'astro:assets';
+import logo from '../assets/logo.png';
 import { url } from '../url';
 
 interface Props {
@@ -30,7 +32,9 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="wordmark" href={url('/')}>{settings.name}</a>
+        <a class="logo" href={url('/')}>
+          <Image src={logo} alt={`${settings.name}, home`} widths={[176, 352]} sizes="(max-width: 700px) 8.5rem, 11rem" loading="eager" />
+        </a>
         <nav aria-label="Main">
           <ul>
             {settings.nav.map((item) => (
@@ -49,8 +53,11 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
     </main>
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p class="wordmark">{settings.name}</p>
-        <p><a href={`mailto:${settings.email}`}>{settings.email}</a> · <a href={settings.instagram} rel="noopener">Instagram</a></p>
+        {/* TODO(Katie): add a Facebook link here once she sends the page address. */}
+        <ul class="social" aria-label="Social media">
+          <li><a href={settings.instagram} rel="noopener">Instagram</a></li>
+        </ul>
+        <p><a href={`mailto:${settings.email}`}>{settings.email}</a></p>
         <p class="copyright">© {new Date().getFullYear()} {settings.name}. All rights reserved.</p>
       </div>
     </footer>
@@ -63,12 +70,15 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
     display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
     gap: var(--space-1) var(--space-3); padding-block: var(--space-2);
   }
-  .wordmark { font-family: var(--font-display); font-size: var(--text-lg); color: var(--color-heading); text-decoration: none; margin: 0; }
+  .logo { display: block; width: var(--size-logo); }
+  .logo :global(img) { width: 100%; height: auto; }
+  @media (max-width: 700px) { .logo { width: var(--size-logo-mobile); } }
   nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); }
   nav a { color: var(--color-body); text-decoration: none; font-size: var(--text-sm); letter-spacing: 0.08em; text-transform: uppercase; }
   nav a[aria-current='page'], nav a:hover { color: var(--color-accent); }
   .site-footer { border-top: 1px solid var(--color-border); margin-top: var(--space-section); }
   .footer-inner { padding-block: var(--space-4); display: grid; gap: var(--space-1); }
   .footer-inner p { margin: 0; }
+  .social { list-style: none; margin: 0; padding: 0; display: flex; gap: var(--space-3); }
   .copyright { font-size: var(--text-sm); color: var(--color-muted); }
 </style>

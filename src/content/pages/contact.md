@@ -1,7 +1,13 @@
 ---
+# Katie decided (Nov 20, 2026) not to list her phone number or address. Office hours: ask her whether she wants them shown.
+# TODO(Matt): contact form (name, email, subject, message, budget/timeline) needs a hosted form service. Matt to choose and approve.
 title: Contact
-description: Get in touch with DeClaire Design about your project.
-heading: Let's get started.
+description: Book a 3-hour consultation package with DeClaire Design. Serving the Bay Area and Northern California.
+heading: Contact
 ---
 
-DeClaire Design takes on a limited number of projects each year. If you'd like to talk about yours, email me at [katie@declaire.design](mailto:katie@declaire.design).
+Planning a home remodel, a refresh, or a new space? Book a 3-hour consultation package. If you decide to move forward with DeClaire Design, those hours are subtracted from your project fees. Serving the Bay Area and Northern California.
+
+<!-- TODO(Katie): add the consultation package price here once she decides what to show. -->
+
+Email us at [info@declaire.design](mailto:info@declaire.design).
