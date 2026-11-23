@@ -2,11 +2,11 @@
 import type { CollectionEntry } from 'astro:content';
 import ProjectCard from './ProjectCard.astro';
 
-interface Props { projects: CollectionEntry<'projects'>[] }
-const { projects } = Astro.props;
+interface Props { projects: CollectionEntry<'projects'>[] | CollectionEntry<'concepts'>[]; base?: string; concept?: boolean }
+const { projects, base, concept } = Astro.props;
 ---
 <div class="grid">
-  {projects.map((project) => <ProjectCard project={project} />)}
+  {projects.map((project) => <ProjectCard project={project} base={base} concept={concept} />)}
 </div>
 
 <style>

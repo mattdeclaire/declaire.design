@@ -3,6 +3,7 @@ import '../styles/global.css';
 import settings from '../settings.json';
 import { Image } from 'astro:assets';
 import logo from '../assets/logo.png';
+import { getCollection } from 'astro:content';
 import { url } from '../url';
 
 interface Props {
@@ -10,6 +11,10 @@ interface Props {
   description?: string;
 }
 const { title, description = settings.description } = Astro.props;
+
+// The Concept Designs tab only appears once at least one concept is published.
+const concepts = await getCollection('concepts', ({ data }) => !data.draft);
+const navItems = settings.nav.filter((item) => item.href !== '/concepts' || concepts.length > 0);
 const fullTitle = title ? `${title} | ${settings.name}` : `${settings.name} | Interior design in the Bay Area`;
 const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ''), '') || '/';
 ---
@@ -37,7 +42,7 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
         </a>
         <nav aria-label="Main">
           <ul>
-            {settings.nav.map((item) => (
+            {navItems.map((item) => (
               <li>
                 <a href={url(item.href)} aria-current={path.startsWith(item.href) ? 'page' : undefined}>
                   {item.label}
