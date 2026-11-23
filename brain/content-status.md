@@ -30,7 +30,7 @@ Matt has the archived photos for the three projects not yet in the repo, with lo
 Katie shared a brochure made for a business development class. **Unconfirmed for the live site:**
 
 - Its services copy (space planning, furniture-fixtures-equipment-color, 3D renderings). Ask Katie whether it should become the Our services section.
-- Concept projects go on the Concept Designs tab, always labeled "Concept Design". **Maiden Lane Books** (San Francisco) is on the site as of Nov 23, 2026, with 4 images; a 5th (flat gray color blocks) is held back until Katie says what it is. Still to come: Wildflower Manor and The Velvet Hour (need original image files and her OK).
+- Concept projects go on the Concept Designs tab, always labeled "Concept Design". **Maiden Lane Books** (San Francisco) is on the site as of Nov 23, 2026, with 4 images; a 5th (flat gray color blocks) is held back until Katie says what it is. **Wildflower Manor** (Austin, TX) is on the site as of Nov 23, 2026 with 6 renderings plus the floor plan. Four AI-generated images (file names start with "Gemini") are held back: Katie needs to decide whether to show them and how to label them as AI-generated. An office-space concept (diagrams only) is staged as a draft until she names it. Still to come: The Velvet Hour.
 - Two more team members and a "Sample Testimonial" appear in the brochure. **Don't use them** unless Katie says they are real, current team members or a real client quote.
 - A phone number (not to be shown), a contact email (now info@) and a tagline ("Listening first. Designing thoughtfully."). Ask which she wants public.
 

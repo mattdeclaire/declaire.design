@@ -12,7 +12,7 @@ images:
   - src: ./03.jpg
     alt: Concept diagram of the same floor in green and black, showing rows of desks, enclosed rooms and a lounge area
 services: []
-order: 2
+order: 3
 ---
 
 A concept design for an office space.
