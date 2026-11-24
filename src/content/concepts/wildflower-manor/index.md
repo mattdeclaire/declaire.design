@@ -34,6 +34,10 @@ images:
     group: Dining room
     caption: AI-generated visualization
     alt: Dining room with curved green booths and round wood tables where residents chat over coffee, an arched wood-framed opening to a large table beyond, and a wall of windows looking out on oak trees and wildflowers
+  - src: ./22.jpg
+    group: Dining room
+    caption: 3D Rendering
+    alt: Second dining space with curved dark green booths and round tables along a wall of windows, a wood planter with a tall plant in the foreground, and a long hallway with wood doors
   - src: ./21.jpg
     group: Dining room
     caption: AI-generated visualization
