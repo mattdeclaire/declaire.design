@@ -33,4 +33,4 @@ featured: false
 order: 4
 ---
 
-A Kings Beach condo given a mid-century ski mountain look. The update included new carpet, all-new paint, wallpaper, lighting, ceiling fans, furniture, and decor.
+A Kings Beach condo was designed with a mid-century modern cabin vibe. The update included all new carpet, paint, wallpaper, lighting fixtures, ceiling fan, furniture, and decor. It's a cozy mountain retreat.
