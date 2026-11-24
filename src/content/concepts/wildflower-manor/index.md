@@ -1,5 +1,6 @@
 ---
 # TODO(Katie): add a few sentences about the idea behind the design and the year.
+# TODO(Katie): confirm 10.jpg (file name Physicians_Office_1) is the same room as 06.jpg (grouped as Workroom), and that 11.jpg (3D_View_22) belongs with the library and cafe.
 # TODO(Katie): the courtyard (08) and second entry (09) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
 # TODO(Katie): confirm the floor plan (07.jpg) is her own space plan before this goes live.
 title: Wildflower Manor
@@ -30,6 +31,21 @@ images:
   - src: ./06.jpg
     group: Workroom
     alt: Open workroom with white desks, gray task chairs, a sage green wall, and tall windows
+  - src: ./10.jpg
+    group: Workroom
+    alt: Second view of the open workroom with white desks, gray task chairs, a sage green wall, a marble-topped counter, and tall windows
+  - src: ./11.jpg
+    group: Library and cafe
+    alt: Lounge by a wall of windows with a brown sofa, two tan armchairs, a lounge chair, a round coffee table, olive green high-back booths, and open shelving in the background
+  - src: ./14.jpg
+    group: Library and cafe
+    alt: View through open white shelving to a window wall with an orange armchair, a marble-topped table, and desks with privacy panels
+  - src: ./12.jpg
+    group: Staff lounge
+    alt: Staff lounge with a long blue-gray table surrounded by tan upholstered chairs, a coral wall with a vending machine, and a white kitchen with an island in sunlight
+  - src: ./13.jpg
+    group: Staff lounge
+    alt: Staff lounge kitchen with white cabinets, a patterned tile backsplash, an island, a long dining table with brown chairs, and a window-side counter with stools
   - src: ./07.jpg
     group: Floor plan
     alt: Black-and-white floor plan of the community, with twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces
@@ -37,4 +53,4 @@ services: []
 order: 2
 ---
 
-A concept design for Wildflower Manor, a senior living community in Austin, Texas. The plan has twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces. Renderings show the entry, a resident suite, the dining booths, and a workroom.
+A concept design for Wildflower Manor, a senior living community in Austin, Texas. The plan has twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces. Renderings show the entry, a resident suite, the dining booths, a workroom, the library and cafe, and the staff lounge.
