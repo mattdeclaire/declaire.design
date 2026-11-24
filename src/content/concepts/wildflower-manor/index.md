@@ -1,5 +1,5 @@
 ---
-# TODO(Katie): the courtyard (08), second entry (09) and library cafe (15) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
+# TODO(Katie): the courtyard (08), second entry (09), library cafe (15) and staff lounge (16) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
 title: Wildflower Manor
 location: Austin, TX
 year: 2026
@@ -33,12 +33,17 @@ images:
   - src: ./14.jpg
     group: Library and internet cafe
     alt: View through open white shelving to a window wall with an orange armchair, a marble-topped table, and desks with privacy panels
+  - src: ./12.jpg
+    group: Staff lounge
+    caption: 3D Rendering
+    alt: Staff lounge with a long blue-gray table surrounded by tan upholstered chairs, a coral wall with a vending machine, and a white kitchen with an island in sunlight
+  - src: ./16.jpg
+    group: Staff lounge
+    caption: AI-generated visualization
+    alt: Staff lounge where four healthcare staff in scrubs and a white coat talk around a long table with an orchid centerpiece, beside a coral wall of framed botanical prints, a white kitchen, and shelves holding anatomical models
   - src: ./11.jpg
     group: Staff lounge
     alt: Lounge by a wall of windows with a brown sofa, two tan armchairs, a lounge chair, a round coffee table, olive green high-back booths, and open shelving in the background
-  - src: ./12.jpg
-    group: Staff lounge
-    alt: Staff lounge with a long blue-gray table surrounded by tan upholstered chairs, a coral wall with a vending machine, and a white kitchen with an island in sunlight
   - src: ./13.jpg
     group: Staff lounge
     alt: Staff lounge kitchen with white cabinets, a patterned tile backsplash, an island, a long dining table with brown chairs, and a window-side counter with stools
