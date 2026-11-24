@@ -18,7 +18,7 @@ images:
     alt: 3D rendering of a dining room with a long table, round tables, a bar with olive green stools, dark gold Art Deco patterned wallpaper, a checkered floor, and two large portrait paintings of women in 1920s dress
   - src: ./05.jpg
     caption: AI-generated visualization
-    alt: Concept visualization of a dining room full of guests, with a long set table, a bar with olive green stools, glowing dark gold Art Deco patterned wallpaper, a checkered floor, and two large portrait paintings of women in 1920s dress
+    alt: Concept visualization of a dining room with a long set table, a bar with olive green stools, dark gold Art Deco patterned wallpaper, a checkered floor, and two large portrait paintings of women in 1920s dress
 services: []
 order: 4
 ---
