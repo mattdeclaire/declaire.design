@@ -37,5 +37,7 @@
   --radius: 2px;
   --size-logo: 11rem;        /* header wordmark width */
   --size-logo-mobile: 8.5rem;
+  --size-monogram: 5rem;     /* footer DD monogram width */
+  --size-monogram-mobile: 4rem;
   --size-carousel-button: 2.75rem;
 }

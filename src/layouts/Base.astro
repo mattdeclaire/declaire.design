@@ -3,6 +3,7 @@ import '../styles/global.css';
 import settings from '../settings.json';
 import { Image } from 'astro:assets';
 import logo from '../assets/logo.png';
+import monogram from '../assets/monogram.png';
 import { getCollection } from 'astro:content';
 import { url } from '../url';
 
@@ -58,12 +59,15 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
     </main>
     <footer class="site-footer">
       <div class="container footer-inner">
-        {/* TODO(Katie): add a Facebook link here once she sends the page address. */}
-        <ul class="social" aria-label="Social media">
-          <li><a href={settings.instagram} rel="noopener">Instagram</a></li>
-        </ul>
-        <p><a href={`mailto:${settings.email}`}>{settings.email}</a></p>
-        <p class="copyright">© {new Date().getFullYear()} {settings.name}. All rights reserved.</p>
+        <Image class="monogram" src={monogram} alt={`${settings.name} monogram`} widths={[160, 320]} sizes="(max-width: 700px) 4rem, 5rem" />
+        <div class="footer-text">
+          {/* TODO(Katie): add a Facebook link here once she sends the page address. */}
+          <ul class="social" aria-label="Social media">
+            <li><a href={settings.instagram} rel="noopener">Instagram</a></li>
+          </ul>
+          <p><a href={`mailto:${settings.email}`}>{settings.email}</a></p>
+          <p class="copyright">© {new Date().getFullYear()} {settings.name}. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   </body>
@@ -77,13 +81,15 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
   }
   .logo { display: block; width: var(--size-logo); }
   .logo :global(img) { width: 100%; height: auto; }
-  @media (max-width: 700px) { .logo { width: var(--size-logo-mobile); } }
+  @media (max-width: 700px) { .logo { width: var(--size-logo-mobile); } .monogram { width: var(--size-monogram-mobile); } }
   nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); }
   nav a { color: var(--color-body); text-decoration: none; font-size: var(--text-sm); letter-spacing: 0.08em; text-transform: uppercase; }
   nav a[aria-current='page'], nav a:hover { color: var(--color-accent); }
   .site-footer { border-top: 1px solid var(--color-border); margin-top: var(--space-section); }
-  .footer-inner { padding-block: var(--space-4); display: grid; gap: var(--space-1); }
-  .footer-inner p { margin: 0; }
+  .footer-inner { padding-block: var(--space-4); display: flex; align-items: center; gap: var(--space-3); }
+  .footer-text { display: grid; gap: var(--space-1); min-width: 0; }
+  .monogram { width: var(--size-monogram); height: auto; flex: none; }
+  .footer-text p { margin: 0; }
   .social { list-style: none; margin: 0; padding: 0; display: flex; gap: var(--space-3); }
   .copyright { font-size: var(--text-sm); color: var(--color-muted); }
 </style>
