@@ -1,5 +1,5 @@
 ---
-# TODO(Katie): confirm these photos are real photographs. The file names say "Gemini_Generated_Image", so tell me if they were AI-edited or enhanced and how to label them. Held as a draft until then.
+# Katie (Nov 24, 2026): the photos were lightly edited with AI, with no design changes. Add a short note under the photos if she wants one.
 # TODO(Katie): add the year, a few sentences about the brief and what you did, and the services you provided.
 title: Los Gatos Living Room
 location: Los Gatos, CA
@@ -14,6 +14,6 @@ images:
     alt: Sunlit living room with wide plank wood floors, exposed wood beams, a ceiling fan, a small desk with cane-back chairs by the window, and a leather armchair in the foreground
 services: []
 featured: false
-draft: true
+draft: false
 order: 3
 ---

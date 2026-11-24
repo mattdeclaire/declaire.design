@@ -52,5 +52,5 @@ An April 2026 draft of the site had a bio that looks AI-written: training at the
 ## Added Nov 23, 2026
 
 - **Wildflower Manor:** year 2026; idea is connection, community, health and biophilic design; Austin, TX confirmed. Katie confirmed the floor plan is her own design and that the physicians' office is the same room as the earlier workroom view; the internet cafe image goes with the library.
-- **Los Gatos Living Room** is in the repo as a draft until Katie confirms whether the photos (file names say "Gemini_Generated_Image") were AI-edited; needs year, description and services.
+- **Los Gatos Living Room** is live as of Nov 24, 2026. Katie says the photos were lightly edited with AI, with no design changes. Still needs the year, a description and services.
 - Katie is fine showing AI-generated images when they are clearly captioned "AI-generated visualization".
