@@ -1,5 +1,5 @@
 ---
-# TODO(Katie): add the year, a sentence or two about the idea behind the design, and any more of your own 3D views or plans to show.
+# TODO(Katie): add the year, and any more of your own 3D views or plans to show.
 # TODO(Katie): the cover and the second view carry the Gemini star, so they are captioned "AI-generated visualization". Confirm that is right, or send your own renderings to replace them.
 title: The Velvet Hour
 location: Berkeley, CA
@@ -23,4 +23,6 @@ services: []
 order: 4
 ---
 
-A concept design for The Velvet Hour, a restaurant and bar in Berkeley, California.
+A concept design for The Velvet Hour, a restaurant and bar in Berkeley, California, that takes guests back to the electric underground of the Roaring Twenties. It is imagined as a lively start to an evening at the theater, a place where music, art, craft cocktails, and film come together.
+
+Art Deco shapes the interiors: jewel-toned walls, lacquered wood paneling, velvet upholstery, and gleaming metallic accents create an atmosphere of glamour and intrigue. The result is a bustling gathering place for the community, with all the energy of the 1920s.
