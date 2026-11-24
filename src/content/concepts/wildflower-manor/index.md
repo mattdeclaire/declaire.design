@@ -81,6 +81,25 @@ services: []
 order: 2
 ---
 
-A concept design for Wildflower Manor, a senior living community in Austin, Texas. The design is built around connection, community, health, and biophilic design: a central courtyard and nature woven into the rooms, with places for residents to gather, dine, read, and spend time together.
+At Wildflower Manor, we aspire to be more than just an active independent living facility. We aim to create a new home where deep roots are established, life flourishes, and every resident thrives. We view this stage of life not as a chapter closing, but as one opening, full of connection, purpose, and endless possibilities.
 
-The plan has twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces. Renderings show the entry, a resident suite, the dining booths, the physicians' office, the library and internet cafe, and the staff lounge.
+Our core beliefs are that planting roots builds connection, which blooms into a community that makes one flourish with wellness.
+
+Almost all public and staff areas are on the north side of the building, and the residential spaces are on the south side. Both public and private spaces boast a biophilic design that immerses you in nature. From the moment you enter the reception area on the north side of the building, the skylit space and lush plants create a serene atmosphere.
+
+Next to the reception, on the left, are a public restroom and the manager's office. The three exam rooms and the RN room are tucked privately behind the receptionist's desk. The physicians' office, the admin office for three, and the staff lounge are located along the same northeast corner.
+
+Strolling through the two main corridors of the residential area, you'll encounter natural stone walls, vibrant greenery, and a soothing waterfall that runs along a charming pebble basin. Skylights in the reception and all of the corridors lighten the space for travel and help brighten everyone's day. The two main corridors are connected by an arched, skylit hallway, which joins the east and west suites without having to walk through the TV/game room. The restrooms are also along this corridor, providing more privacy while remaining easily accessible.
+
+At the heart of the community lies a shared residential patio, which connects to a variety of amenities:
+
+- Internet cafe and library
+- TV/game room
+- Restrooms
+- Kitchen
+- Admin office for assistance if needed
+- Dining room
+
+This strong connection to nature encourages residents to take walks and socialize, both of which are essential for mental and physical well-being.
+
+*The 3D renderings are views from my Revit model. The AI-generated visualizations show how each room could feel.*
