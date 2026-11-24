@@ -6,7 +6,7 @@ description: Book a 3-hour consultation package with DeClaire Design. Serving th
 heading: Contact
 ---
 
-Planning a home remodel, a refresh, or a new space? Book a 3-hour consultation package. If you decide to move forward with DeClaire Design, those hours are subtracted from your project fees. Serving the Bay Area and Northern California wine country.
+Planning a home remodel, a refresh, or a new space? Book a 3-hour consultation package. Serving the Bay Area and Northern California wine country.
 
 <!-- TODO(Katie): add the consultation package price here once she decides what to show. -->
 
