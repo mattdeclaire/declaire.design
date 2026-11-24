@@ -2,7 +2,6 @@
 # TODO(Katie): add a few sentences about the idea behind the design and the year.
 # TODO(Katie): confirm 10.jpg (file name Physicians_Office_1) is the same room as 06.jpg (grouped as Workroom), and that 11.jpg (3D_View_22) belongs with the library and cafe.
 # TODO(Katie): the courtyard (08) and second entry (09) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
-# TODO(Katie): confirm the floor plan (07.jpg) is her own space plan before this goes live.
 title: Wildflower Manor
 location: Austin, TX
 cover: ./08.jpg
