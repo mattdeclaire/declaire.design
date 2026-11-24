@@ -1,6 +1,6 @@
 ---
 title: Our services
-description: Space planning, furniture, fixtures, equipment and color, and 3D renderings from DeClaire Design.
+description: Space planning, furniture, fixtures, equipment and color, 3D renderings, and boutique hospitality design from DeClaire Design.
 heading: Our services
 ---
 
@@ -15,3 +15,7 @@ We select furnishings, lighting, finishes, and color palettes that look beautifu
 ### 3D renderings
 
 See your space before it's built. Our 3D models and renderings let you walk through layouts, finishes, and lighting, so you can make confident decisions and avoid costly changes later.
+
+### Hospitality design
+
+We also design select boutique hospitality spaces: tasting rooms, restaurants, and small hotels in wine country. Our concept designs, such as The Velvet Hour, show our approach to layout, lighting, and materials for places people want to linger.

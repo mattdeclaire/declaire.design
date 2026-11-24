@@ -30,7 +30,7 @@
 
 ## Who the site is for
 
-**Updated Nov 20, 2026 (Katie's outline):** "restaurants, hotels, and living spaces," serving the Bay Area and Northern California. **Consultation (Katie, Nov 21, 2026):** not free. It is a 3-hour consultation package, and if the client proceeds, those hours are subtracted from their project fees. Price not given yet. Her outline and brochure still say "free consultation"; the brochure is out of date on this. Katie's business development class brochure describes the same focus.
+**Updated Nov 20, 2026 (Katie's outline):** "restaurants, hotels, and living spaces," serving the Bay Area and Northern California. **Nov 24, 2026:** Katie's business plan targets established Bay Area families (residential) and wine country hospitality (commercial), so the site now says "Northern California wine country" and has a short Hospitality design paragraph under Our services (draft for Katie to approve; The Velvet Hour is the only concept that supports it, and no built hospitality work exists yet). **Consultation (Katie, Nov 21, 2026):** not free. It is a 3-hour consultation package, and if the client proceeds, those hours are subtracted from their project fees. Price not given yet. Her outline and brochure still say "free consultation"; the brochure is out of date on this. Katie's business development class brochure describes the same focus.
 
 **Older draft (April 2026), now superseded:** Homeowners in the Bay Area looking for help furnishing and styling a home, from a single room to a whole house. Ask Katie who her ideal clients are and how they usually find her.
 
