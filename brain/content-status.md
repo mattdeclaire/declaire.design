@@ -10,7 +10,7 @@ What's real, what's missing, and what to ask Katie. Update this as answers come 
 | --- | --- | --- | --- |
 | Modern Home (Benicia, 2022) | Yes, 8 photos | Photos and alt text in. No story yet | The story; services involved |
 | Mid-Century (San Jose, 2024) | Yes, 9 photos | Photos and alt text in. No story yet | The story; services involved |
-| Tahoe Cabin (Kings Beach, 2025) | No | 10 photos in Matt's archive | Usage rights for the listing photos |
+| Kings Beach Condo (Kings Beach, 2025) | Yes, 9 of 10 photos (entry photo with readable community rules held back) | Live as of Nov 23, 2026. Katie's words: designed with a mid-century modern cabin vibe, a cozy mountain retreat; all new carpet, paint, wallpaper, lighting fixtures, ceiling fan, furniture and decor | Usage rights for the listing photos and whether to credit the photographer; before photos (Katie asked about including them, send for a Before and After section) |
 | "Elise Bisbee" (2024) | No | 5 photos in Matt's archive | Named after a client: OK to use the name? Location? |
 | "Hanh" (2024) | No | 1 photo in Matt's archive | Named after a client: OK to use the name? Location? More photos? |
 
@@ -48,3 +48,9 @@ An April 2026 draft of the site had a bio that looks AI-written: training at the
 - Do you want office hours shown? (Phone number and address stay off the site, per Katie.)
 - What is your Facebook page address?
 - Do you have the original logo file, or should the redesign include a new one?
+
+## Added Nov 23, 2026
+
+- **Wildflower Manor:** year 2026; idea is connection, community, health and biophilic design; Austin, TX confirmed. Katie confirmed the floor plan is her own design and that the physicians' office is the same room as the earlier workroom view; the internet cafe image goes with the library.
+- **Los Gatos Living Room** is in the repo as a draft until Katie confirms whether the photos (file names say "Gemini_Generated_Image") were AI-edited; needs year, description and services.
+- Katie is fine showing AI-generated images when they are clearly captioned "AI-generated visualization".
