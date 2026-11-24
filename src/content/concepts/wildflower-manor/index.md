@@ -1,9 +1,9 @@
 ---
-# TODO(Katie): add a few sentences about the idea behind the design and the year.
 # TODO(Katie): confirm 10.jpg (file name Physicians_Office_1) is the same room as 06.jpg (grouped as Workroom), and that 11.jpg (3D_View_22) belongs with the library and cafe.
 # TODO(Katie): the courtyard (08) and second entry (09) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
 title: Wildflower Manor
 location: Austin, TX
+year: 2026
 cover: ./08.jpg
 coverAlt: Concept visualization of a courtyard with a stone fountain, a tall oak tree, boxwood hedges, and residents chatting on wood benches, surrounded by glass-walled rooms
 coverCaption: Courtyard. AI-generated visualization.
@@ -52,4 +52,6 @@ services: []
 order: 2
 ---
 
-A concept design for Wildflower Manor, a senior living community in Austin, Texas. The plan has twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces. Renderings show the entry, a resident suite, the dining booths, a workroom, the library and cafe, and the staff lounge.
+A concept design for Wildflower Manor, a senior living community in Austin, Texas. The design is built around connection, community, health, and biophilic design: a central courtyard and nature woven into the rooms, with places for residents to gather, dine, read, and spend time together.
+
+The plan has twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces. Renderings show the entry, a resident suite, the dining booths, a workroom, the library and cafe, and the staff lounge.
