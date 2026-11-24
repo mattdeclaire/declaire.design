@@ -1,5 +1,5 @@
 ---
-# TODO(Katie): the courtyard (08), second entry (09), library cafe (15), staff lounge (16), physicians' workroom (17) and suite bedroom (18), dining room (19) and staff lounge (20) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
+# TODO(Katie): the courtyard (08), second entry (09), library cafe (15), staff lounge (16), physicians' workroom (17) and suite bedroom (18), dining room (19, 21) and staff lounge (20) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
 title: Wildflower Manor
 location: Austin, TX
 year: 2026
@@ -34,6 +34,10 @@ images:
     group: Dining room
     caption: AI-generated visualization
     alt: Dining room with curved green booths and round wood tables where residents chat over coffee, an arched wood-framed opening to a large table beyond, and a wall of windows looking out on oak trees and wildflowers
+  - src: ./21.jpg
+    group: Dining room
+    caption: AI-generated visualization
+    alt: Second dining space with curved green booths where residents share coffee and pastries, a wall of windows opening onto a courtyard with boxwood hedges, a tree, and residents seated outside
   - src: ./06.jpg
     group: Physicians' office
     caption: 3D Rendering
