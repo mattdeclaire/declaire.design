@@ -14,9 +14,6 @@ images:
     group: Entry
     caption: AI-generated visualization
     alt: Entry lobby with a wood reception desk, a receptionist greeting a visitor, a woman reading in a green armchair, framed botanical prints on a sage green wall, and a leather planter with tall green plants
-  - src: ./02.jpg
-    group: Resident suite
-    alt: Resident suite sitting area with a dark floral wallpaper wall, a wall-mounted TV above a wood credenza, two upholstered armchairs, and a small round table, with a glass-paneled partition to the bedroom
   - src: ./03.jpg
     group: Resident suite
     alt: Resident suite bedroom with soft green patterned wallpaper, a bed, an upholstered armchair, a wood desk, and French doors
@@ -29,15 +26,12 @@ images:
   - src: ./06.jpg
     group: Physicians' office
     alt: Open physicians' office with white desks, gray task chairs, a sage green wall, and tall windows
-  - src: ./10.jpg
-    group: Physicians' office
-    alt: Second view of the open physicians' office with white desks, gray task chairs, a sage green wall, a marble-topped counter, and tall windows
-  - src: ./11.jpg
-    group: Library and internet cafe
-    alt: Lounge by a wall of windows with a brown sofa, two tan armchairs, a lounge chair, a round coffee table, olive green high-back booths, and open shelving in the background
   - src: ./14.jpg
     group: Library and internet cafe
     alt: View through open white shelving to a window wall with an orange armchair, a marble-topped table, and desks with privacy panels
+  - src: ./11.jpg
+    group: Staff lounge
+    alt: Lounge by a wall of windows with a brown sofa, two tan armchairs, a lounge chair, a round coffee table, olive green high-back booths, and open shelving in the background
   - src: ./12.jpg
     group: Staff lounge
     alt: Staff lounge with a long blue-gray table surrounded by tan upholstered chairs, a coral wall with a vending machine, and a white kitchen with an island in sunlight
