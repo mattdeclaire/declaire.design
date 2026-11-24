@@ -4,7 +4,7 @@
 title: The Velvet Hour
 location: Berkeley, CA
 cover: ./02.jpg
-coverAlt: Concept visualization of a dining room with a long set table, a bar with olive green stools, dark gold Art Deco patterned wallpaper, a checkered floor, and two large portrait paintings of women in 1920s dress
+coverAlt: Concept visualization of a dining room full of guests, with a long set table, a bar with olive green stools, glowing dark gold Art Deco patterned wallpaper, a checkered floor, and two large portrait paintings of women in 1920s dress
 coverCaption: AI-generated visualization
 images:
   - src: ./03.jpg
