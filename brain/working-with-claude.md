@@ -2,8 +2,6 @@
 
 How Katie designs and updates declaire.design. Katie owns the design and content, and Claude does the building. Matt reviews each change before it goes live.
 
-**For Claude:** when Katie asks how to get started, or what to do next, walk her through the matching section below one step at a time. Keep it in plain language, and never ask her to run commands.
-
 ## One-time setup
 
 Katie needs three things. Matt does step 2.
@@ -26,7 +24,7 @@ If **Design** isn't offered as an output in a chat inside the project, start the
 
 ## Designing the new look
 
-Use Claude Design inside Claude. The older standalone site at claude.ai/design closes on December 14, 2026.
+Use Design inside the project, not the standalone site at claude.ai/design, which closes on December 14, 2026.
 
 1. In Claude, start a new chat and choose **Design** as the output, or open the **Artifacts** tab and pick a Design template.
 2. Click **+** → **Add from GitHub**, choose `mattdeclaire/declaire.design`, and add the `brain` folder and `CLAUDE.md`.
@@ -37,8 +35,7 @@ Use Claude Design inside Claude. The older standalone site at claude.ai/design c
 When the design is right:
 
 1. Ask Claude for the handoff spec described in [design-brief.md](design-brief.md).
-2. Choose **Export** → **Handoff to Claude Code** → **Send to Claude Code Web**, and pick this repo if asked.
-3. Claude builds it on a branch, shows screenshots and opens a pull request for Matt.
+2. In the same chat, ask Claude to build it. It opens a pull request for Matt and sends you the link.
 
 Nothing in Claude Design changes the live site, so experiment freely.
 
