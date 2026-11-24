@@ -1,5 +1,4 @@
 ---
-# TODO(Katie): confirm 10.jpg (file name Physicians_Office_1) is the same room as 06.jpg (grouped as Workroom).
 # TODO(Katie): the courtyard (08) and second entry (09) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
 title: Wildflower Manor
 location: Austin, TX
@@ -28,11 +27,11 @@ images:
     group: Dining room
     alt: Dining area with curved green booths, wood-topped tables, and sunlight streaming in through a wall of windows
   - src: ./06.jpg
-    group: Workroom
-    alt: Open workroom with white desks, gray task chairs, a sage green wall, and tall windows
+    group: Physicians' office
+    alt: Open physicians' office with white desks, gray task chairs, a sage green wall, and tall windows
   - src: ./10.jpg
-    group: Workroom
-    alt: Second view of the open workroom with white desks, gray task chairs, a sage green wall, a marble-topped counter, and tall windows
+    group: Physicians' office
+    alt: Second view of the open physicians' office with white desks, gray task chairs, a sage green wall, a marble-topped counter, and tall windows
   - src: ./11.jpg
     group: Library and internet cafe
     alt: Lounge by a wall of windows with a brown sofa, two tan armchairs, a lounge chair, a round coffee table, olive green high-back booths, and open shelving in the background
@@ -54,4 +53,4 @@ order: 2
 
 A concept design for Wildflower Manor, a senior living community in Austin, Texas. The design is built around connection, community, health, and biophilic design: a central courtyard and nature woven into the rooms, with places for residents to gather, dine, read, and spend time together.
 
-The plan has twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces. Renderings show the entry, a resident suite, the dining booths, a workroom, the library and internet cafe, and the staff lounge.
+The plan has twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces. Renderings show the entry, a resident suite, the dining booths, the physicians' office, the library and internet cafe, and the staff lounge.
