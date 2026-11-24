@@ -1,5 +1,5 @@
 ---
-# TODO(Katie): the courtyard (08), second entry (09), library cafe (15), staff lounge (16), physicians' workroom (17) and suite bedroom (18) and dining room (19) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
+# TODO(Katie): the courtyard (08), second entry (09), library cafe (15), staff lounge (16), physicians' workroom (17) and suite bedroom (18), dining room (19) and staff lounge (20) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
 title: Wildflower Manor
 location: Austin, TX
 year: 2026
@@ -58,12 +58,14 @@ images:
     group: Staff lounge
     caption: AI-generated visualization
     alt: Staff lounge where four healthcare staff in scrubs and a white coat talk around a long table with an orchid centerpiece, beside a coral wall of framed botanical prints, a white kitchen, and shelves holding anatomical models
-  - src: ./12.jpg
-    group: Staff lounge
-    alt: Staff lounge with a long blue-gray table surrounded by tan upholstered chairs, a coral wall with a vending machine, and a white kitchen with an island in sunlight
   - src: ./11.jpg
     group: Staff lounge
+    caption: 3D Rendering
     alt: Lounge by a wall of windows with a brown sofa, two tan armchairs, a lounge chair, a round coffee table, olive green high-back booths, and open shelving in the background
+  - src: ./20.jpg
+    group: Staff lounge
+    caption: AI-generated visualization
+    alt: Staff lounge with a wall of windows onto oak trees, where a woman in a blazer, two staff in scrubs and a man in a green polo talk with coffee in tan armchairs and an orange sofa, with open shelving of books behind them
   - src: ./07.jpg
     group: Floor plan
     alt: Black-and-white floor plan of the community, with twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces
