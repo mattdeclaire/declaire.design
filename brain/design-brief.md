@@ -2,8 +2,6 @@
 
 For Claude, when working with Katie in Claude Design on the look of the site. Read the rest of `brain/` and `CLAUDE.md` too: they hold the business facts, the brand history, what content is confirmed, and the rules for content.
 
-Katie is a designer, not a developer. Talk with her in plain language and show her visuals rather than code.
-
 ## What to make
 
 1. **The design.** Work with Katie on the look and layout until she's happy. Use real content and her photos, not lorem ipsum. Show phone and desktop versions.

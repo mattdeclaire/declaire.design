@@ -2,8 +2,6 @@
 
 How Katie designs and updates declaire.design. Katie owns the design and content, and Claude does the building. Matt reviews each change before it goes live.
 
-**For Claude:** when Katie asks how to get started, or what to do next, walk her through the matching section below one step at a time. Keep it in plain language, and never ask her to run commands.
-
 ## One-time setup
 
 Katie needs three things. Matt does step 2.
