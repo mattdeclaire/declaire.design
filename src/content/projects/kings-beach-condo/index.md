@@ -30,6 +30,11 @@ beforeAfter:
     beforeAlt: Living room before the update, with a stone fireplace and black hood, a dining table, a ceiling fan, and gray carpet under a beamed wood ceiling
     after: ./01.jpg
     afterAlt: The same living room after the update, with a cognac leather sofa and chair, a burl wood console, and vintage skis and snowshoes on the wall
+  - room: Family room
+    before: ./before-7.jpg
+    beforeAlt: Family room before the update, with a corner stone fireplace under a black hood, a stained glass panel over a sliding door to the deck, a glass dining table with cane chairs, and gray carpet under a beamed wood ceiling
+    after: ./01.jpg
+    afterAlt: The family room after the update, with a tall black fireplace hood over a stone hearth, a cognac leather sofa and chair, a burl wood console, and vintage skis and snowshoes on the wall
   - room: Living room, art wall
     before: ./before-2.jpg
     beforeAlt: Living area before the update, with a redwood paneled wall hung with framed prints, a slot machine, a corduroy lounge chair, and a stained glass panel above a sliding door
