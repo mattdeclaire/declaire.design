@@ -8,7 +8,7 @@ Newest first. Each entry: what we decided, why, and who decided.
 - **Hosted on GitHub Pages.** Free, with a custom domain and HTTPS. There are no per-change preview links, so `main` is the live site. Every change goes through a pull request that Matt reviews.
 - **No CMS, database or login.** Claude is the editor. A previous attempt with a custom CMS (2025–26) was more to maintain than it was worth.
 - **Fresh repo** rather than reusing an earlier one, so old code and photo history (some with GPS data) stay behind.
-- **Design first in Claude Design,** then build from its handoff spec. Katie owns the design and content. Matt owns hosting, DNS and code review.
+- **Design first in Claude Design,** using the Design artifacts inside the Claude Project (not the standalone app at claude.ai/design, which closes December 14, 2026), then build from its handoff spec. Katie owns the design and content. Matt owns hosting, DNS and code review.
 
 ## Constraints that come from these decisions
 
