@@ -46,7 +46,7 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
           <ul>
             {navItems.map((item) => (
               <li>
-                <a href={url(item.href)} aria-current={path.startsWith(item.href) ? 'page' : undefined}>
+                <a class:list={[{ cta: item.href === '/contact' }]} href={url(item.href)} aria-current={path.startsWith(item.href) ? 'page' : undefined}>
                   {item.label}
                 </a>
               </li>
@@ -91,7 +91,10 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
   }
   nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-1) var(--space-3); }
   nav a { color: var(--color-body); text-decoration: none; font-size: var(--text-sm); letter-spacing: 0.08em; text-transform: uppercase; }
-  nav a[aria-current='page'], nav a:hover { color: var(--color-accent); }
+  nav a:hover, nav a:focus-visible { color: var(--color-accent); }
+  /* The current page is underlined; Contact is always the accent color. */
+  nav a[aria-current='page'] { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.5em; }
+  nav a.cta { color: var(--color-accent); }
   .site-footer { border-top: 1px solid var(--color-border); margin-top: var(--space-section); }
   .footer-inner { padding-block: var(--space-4); display: flex; align-items: center; gap: var(--space-3); }
   .footer-text { display: grid; gap: var(--space-1); min-width: 0; }
