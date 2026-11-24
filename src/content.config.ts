@@ -16,6 +16,18 @@ const projectSchema = ({ image }: SchemaContext) =>
     images: z
       .array(z.object({ src: image(), alt: z.string(), group: z.string().optional(), caption: z.string().optional() }))
       .default([]),
+    // Optional before and after pairs, shown in their own section on the project page.
+    beforeAfter: z
+      .array(
+        z.object({
+          room: z.string(),
+          before: image(),
+          beforeAlt: z.string(),
+          after: image(),
+          afterAlt: z.string(),
+        }),
+      )
+      .default([]),
     services: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),
