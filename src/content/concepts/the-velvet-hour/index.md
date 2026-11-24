@@ -13,6 +13,9 @@ images:
   - src: ./01.jpg
     caption: AI-generated visualization
     alt: Concept visualization of a restaurant and bar at dusk, with a curved bar and olive green stools, a checkered floor, patterned dark wallpaper, glowing ceiling coves, diners at tables, and tall windows onto a city street
+  - src: ./02.jpg
+    caption: AI-generated visualization
+    alt: Concept visualization of a dining room full of guests, with a long set table, a bar with olive green stools, glowing dark gold Art Deco patterned wallpaper, a checkered floor, and two large portrait paintings of women in 1920s dress
 services: []
 order: 4
 ---
