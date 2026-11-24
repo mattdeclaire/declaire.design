@@ -45,10 +45,10 @@ Most requests touch only `src/content/`, `src/settings.json`, `src/styles/tokens
 
 `main` is the live site, and GitHub Pages has no preview links.
 
-1. Work on a new branch. Never push to `main`.
+1. **One session, one pull request.** At the start of each session (each chat thread), create a new branch from the latest `main` and open your own pull request for it. Push all of that session's work to that branch only. Never push to `main`, and never push to a branch or pull request that another session opened, even if it's still open. If your work depends on another session's unmerged pull request, branch from that pull request's branch and say so at the top of your pull request's description.
 2. Run `npm run build`. It type-checks and builds, and fails with a clear message if content is missing a required field. Fix anything it reports.
 3. Run `npm run dev` and check the change at phone and desktop widths. Show Katie a screenshot if you can.
-4. Open a pull request with a short, plain-English summary of what changed and why, written so Katie and Matt can both follow it.
+4. Open the pull request with a short, plain-English summary of what changed and why, written so Katie and Matt can both follow it, and give Katie its link in the chat. As the session goes on, keep the summary up to date.
 5. Matt reviews and merges. The site updates a minute or two after merging.
 
 ## Check with Matt first
