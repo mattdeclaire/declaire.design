@@ -48,7 +48,7 @@ Most requests touch only `src/content/`, `src/settings.json`, `src/styles/tokens
 `main` is the live site, and GitHub Pages has no preview links.
 
 1. **One session, one pull request.** At the start of each session (each chat thread), create a new branch from the latest `main` and open your own pull request for it. Push all of that session's work to that branch only. Never push to `main`, and never push to a branch or pull request that another session opened, even if it's still open. If your work depends on another session's unmerged pull request, branch from that pull request's branch and say so at the top of your pull request's description.
-2. Run `npm run build`. It type-checks and builds, and fails with a clear message if content is missing a required field. Fix anything it reports.
+2. Run `npm test`. It type-checks and builds (failing with a clear message if content is missing a required field), then checks the built site: every page and published project is there, drafts stay off, links and images resolve, every image has alt text, and no working notes show as page text. Fix anything it reports. The same checks run on every pull request, and a failure on `main` stops the deploy.
 3. Run `npm run dev` and check the change at phone and desktop widths.
 4. Open the pull request with a short, plain-English summary of what changed and why, written so Katie and Matt can both follow it. As the session goes on, keep the summary up to date.
 5. Matt reviews and merges. The site updates a minute or two after merging.
@@ -65,7 +65,8 @@ Most requests touch only `src/content/`, `src/settings.json`, `src/styles/tokens
 
 ```bash
 npm install       # once, after cloning
-npm run dev       # local preview at http://localhost:4321
+npm run dev       # local preview at http://localhost:4321 (restart it after switching branches)
 npm run build     # type-check and build to dist/
+npm test          # build, then run the site checks in tests/
 npm run preview   # serve the built site
 ```
