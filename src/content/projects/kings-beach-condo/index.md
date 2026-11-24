@@ -1,9 +1,10 @@
 ---
-# TODO(Katie): add the year, a few sentences about what you changed and the look you were after, and the services you provided.
+# TODO(Katie): optional before photos. If she sends them, add a Before and After section.
 # TODO(Katie): the entry photo with the wood door (file name starts "4-web-or-mls") was held back because the posted community rules on the bulletin board are readable and identify the complex. Say if you want it shown anyway.
 # TODO(Katie): these look like professional listing photos. Add a photographer credit if you want one.
 title: Kings Beach Condo
 location: Kings Beach, CA
+year: 2025
 cover: ./01.jpg
 coverAlt: Living room in a mountain condo with a tall black fireplace hood over a stone hearth, a cognac leather sofa and chair, a burl wood console, and vintage skis and snowshoes on the wall
 images:
@@ -23,9 +24,13 @@ images:
     alt: Bedroom with a striped duvet, a cane-back tufted armchair, brass wall sconces, a vintage dresser, and framed mountain and winter landscape prints
   - src: ./09.jpg
     alt: Bathroom with a birch tree wallpaper wall, a double vanity with black faucets, and a framed print of a bear in a bathtub
-services: []
+services:
+  - Furniture and decor
+  - Lighting and fans
+  - Wallpaper and paint
+  - Flooring
 featured: false
 order: 4
 ---
 
-A Kings Beach condo that Katie updated and decorated.
+A Kings Beach condo given a mid-century ski mountain look. The update included new carpet, all-new paint, wallpaper, lighting, ceiling fans, furniture, and decor.
