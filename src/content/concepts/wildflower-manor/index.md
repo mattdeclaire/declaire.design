@@ -27,11 +27,11 @@ images:
   - src: ./06.jpg
     group: Physicians' office
     caption: 3D Rendering
+    alt: Open physicians' office with white desks, gray task chairs, a sage green wall, and tall windows
   - src: ./17.jpg
     group: Physicians' office
     caption: AI-generated visualization
     alt: Physicians' workroom where doctors and nurses in scrubs and white coats work and talk at white desks, with a sage green wall, a marble-topped counter, and a wall of windows looking out on a large oak tree
-    alt: Open physicians' office with white desks, gray task chairs, a sage green wall, and tall windows
   - src: ./14.jpg
     group: Library and internet cafe
     caption: 3D Rendering
