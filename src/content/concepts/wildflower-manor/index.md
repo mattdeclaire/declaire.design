@@ -35,20 +35,20 @@ images:
     group: Library and internet cafe
     caption: AI-generated visualization
     alt: Library and cafe with white open shelving full of books, a woman working on a laptop at a white desk, a man pouring coffee at a marble-topped counter, and a wall of windows looking out on an oak tree and garden where residents walk
-  - src: ./12.jpg
+  - src: ./13.jpg
     group: Staff lounge
     caption: 3D Rendering
-    alt: Staff lounge with a long blue-gray table surrounded by tan upholstered chairs, a coral wall with a vending machine, and a white kitchen with an island in sunlight
+    alt: Staff lounge kitchen with white cabinets, a patterned tile backsplash, an island, a long dining table with brown chairs, and a window-side counter with stools
   - src: ./16.jpg
     group: Staff lounge
     caption: AI-generated visualization
     alt: Staff lounge where four healthcare staff in scrubs and a white coat talk around a long table with an orchid centerpiece, beside a coral wall of framed botanical prints, a white kitchen, and shelves holding anatomical models
+  - src: ./12.jpg
+    group: Staff lounge
+    alt: Staff lounge with a long blue-gray table surrounded by tan upholstered chairs, a coral wall with a vending machine, and a white kitchen with an island in sunlight
   - src: ./11.jpg
     group: Staff lounge
     alt: Lounge by a wall of windows with a brown sofa, two tan armchairs, a lounge chair, a round coffee table, olive green high-back booths, and open shelving in the background
-  - src: ./13.jpg
-    group: Staff lounge
-    alt: Staff lounge kitchen with white cabinets, a patterned tile backsplash, an island, a long dining table with brown chairs, and a window-side counter with stools
   - src: ./07.jpg
     group: Floor plan
     alt: Black-and-white floor plan of the community, with twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces
