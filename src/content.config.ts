@@ -57,4 +57,16 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { projects, concepts, pages };
+// Journal posts: one folder per post holding index.md (src/content/journal/).
+// Use draft: true to keep a post off the site while it is in progress.
+const journal = defineCollection({
+  loader: glob({ pattern: '*/index.md', base: './src/content/journal' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    summary: z.string(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { projects, concepts, pages, journal };

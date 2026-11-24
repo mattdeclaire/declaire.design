@@ -77,6 +77,7 @@ function contentEntries(folder) {
 const collections = [
   { folder: 'projects', route: '/work' },
   { folder: 'concepts', route: '/concepts' },
+  { folder: 'journal', route: '/journal' },
 ];
 
 test('the main pages are built', () => {

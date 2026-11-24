@@ -18,6 +18,10 @@
       "href": "/concepts"
     },
     {
+      "label": "Journal",
+      "href": "/journal"
+    },
+    {
       "label": "Contact",
       "href": "/contact"
     }

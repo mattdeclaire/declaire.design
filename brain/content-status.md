@@ -54,3 +54,8 @@ An April 2026 draft of the site had a bio that looks AI-written: training at the
 - **Wildflower Manor:** year 2026; idea is connection, community, health and biophilic design; Austin, TX confirmed. Katie confirmed the floor plan is her own design and that the physicians' office is the same room as the earlier workroom view; the internet cafe image goes with the library.
 - **Los Gatos Living Room** is live as of Nov 24, 2026. Katie says the photos were lightly edited with AI, with no design changes. Still needs the year, a description and services.
 - Katie is fine showing AI-generated images when they are clearly captioned "AI-generated visualization".
+
+## Journal (added Nov 24, 2026)
+- New "Journal" page in the menu (`/journal`). One folder per post in `src/content/journal/<name>/index.md`; `draft: true` keeps a post off the site.
+- Published: "Selecting Materials for Your Restaurant Renovation" (Katie's text, typos fixed; her closing "free consultation" line was replaced because the consultation is now a paid 3-hour package).
+- Draft, not live: "Selecting Materials for Your Wine Country Tasting Room or Restaurant" (adapted by Claude from her post; Katie to review before it goes up).
