@@ -58,3 +58,7 @@ For anything after the redesign, such as a new project, new text or a color twea
 - **Claude only uses facts Katie gives it.** Open questions about the business are in [content-status.md](content-status.md). Her answers go into `brain/` so no one asks twice.
 - **This repo is public.** No client names, addresses or photo location data unless Katie says they're public.
 - **Some things need Matt first:** the domain, hosting, a contact form, deleting a project or page, and anything technical listed in [CLAUDE.md](../CLAUDE.md).
+
+## Previews
+
+Katie prefers one HTML preview page of the whole site that Claude keeps up to date, instead of many screenshots. After each change, rebuild the site, regenerate the preview from the built pages, and republish it to the same link.
