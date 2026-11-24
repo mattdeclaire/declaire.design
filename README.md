@@ -2,7 +2,7 @@
 
 The website for DeClaire Design, Katie DeClaire's interior design studio in the San Francisco Bay Area.
 
-A static [Astro](https://astro.build) site. All content is in Markdown under `src/content/`, and it's deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`. Pull requests run the build as a check.
+A static [Astro](https://astro.build) site. All content is in Markdown under `src/content/`, and it's deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`. Pull requests run the build and the site checks in `tests/` (`npm test`).
 
 - **For Katie:** start with [brain/working-with-claude.md](brain/working-with-claude.md).
 - **For Claude:** start with [CLAUDE.md](CLAUDE.md) and [brain/](brain/).
