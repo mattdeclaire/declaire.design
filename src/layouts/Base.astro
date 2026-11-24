@@ -39,7 +39,8 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
     <header class="site-header">
       <div class="container header-inner">
         <a class="logo" href={url('/')}>
-          <Image src={logo} alt={`${settings.name}, home`} widths={[176, 352]} sizes="(max-width: 700px) 8.5rem, 11rem" loading="eager" />
+          <Image class="logo-mark" src={monogram} alt="DD monogram" aria-hidden="true" widths={[144, 288]} sizes="(max-width: 700px) 3.5rem, 4.5rem" loading="eager" />
+          <Image class="wordmark" src={logo} alt={`${settings.name}, home`} widths={[176, 352]} sizes="(max-width: 700px) 8.5rem, 11rem" loading="eager" />
         </a>
         <nav aria-label="Main">
           <ul>
@@ -79,9 +80,15 @@ const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, 
     display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
     gap: var(--space-1) var(--space-3); padding-block: var(--space-2);
   }
-  .logo { display: block; width: var(--size-logo); }
-  .logo :global(img) { width: 100%; height: auto; }
-  @media (max-width: 700px) { .logo { width: var(--size-logo-mobile); } .monogram { width: var(--size-monogram-mobile); } }
+  .logo { display: flex; align-items: center; gap: var(--space-2); }
+  .logo :global(img) { height: auto; flex: none; }
+  .logo :global(.logo-mark) { width: var(--size-logo-mark); }
+  .logo :global(.wordmark) { width: var(--size-logo); }
+  @media (max-width: 700px) {
+    .logo :global(.logo-mark) { width: var(--size-logo-mark-mobile); }
+    .logo :global(.wordmark) { width: var(--size-logo-mobile); }
+    .monogram { width: var(--size-monogram-mobile); }
+  }
   nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); }
   nav a { color: var(--color-body); text-decoration: none; font-size: var(--text-sm); letter-spacing: 0.08em; text-transform: uppercase; }
   nav a[aria-current='page'], nav a:hover { color: var(--color-accent); }
