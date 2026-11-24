@@ -12,8 +12,9 @@ const projectSchema = ({ image }: SchemaContext) =>
     summary: z.string().optional(),
     cover: image(),
     coverAlt: z.string(),
+    coverCaption: z.string().optional(),
     images: z
-      .array(z.object({ src: image(), alt: z.string() }))
+      .array(z.object({ src: image(), alt: z.string(), group: z.string().optional(), caption: z.string().optional() }))
       .default([]),
     services: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
