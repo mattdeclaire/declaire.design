@@ -5,9 +5,9 @@
 - **Business:** DeClaire Design
 - **Designer:** Katie DeClaire
 - **Where:** San Francisco Bay Area. Projects so far are in Benicia, San Jose and Kings Beach (Lake Tahoe).
-- **What:** Residential interior design, specializing in home furnishings and decor.
+- **What:** Interior design studio in Benicia that **leans residential** (Katie, Nov 21, 2026): that's her real-life experience. She wants to keep the door open to select boutique commercial projects later, since many of her school projects are commercial. The site leads with homes and mentions commercial in one line. Tagline: "Listening first. Designing thoughtfully." Her Nov 20 outline and class brochure led with restaurants, hotels and living communities; that is superseded.
 - **Background:** Merchandising (from Katie's own 2023 bio).
-- **Email:** katie@declaire.design (Google Workspace)
+- **Email:** info@declaire.design is the public contact email (Katie, Nov 20, 2026). Don't show her personal email. Do not list her phone number or address on the site.
 - **Instagram:** [@katiedeclairedesign](https://www.instagram.com/katiedeclairedesign/)
 - **Tagline (since 2023):** "Professional design for everyday living."
 
@@ -30,7 +30,9 @@
 
 ## Who the site is for
 
-**Unconfirmed.** Homeowners in the Bay Area looking for help furnishing and styling a home, from a single room to a whole house. Ask Katie who her ideal clients are and how they usually find her.
+**Updated Nov 20, 2026 (Katie's outline):** "restaurants, hotels, and living spaces," serving the Bay Area and Northern California. **Nov 24, 2026:** Katie's business plan targets established Bay Area families (residential) and wine country hospitality (commercial), so the site now says "Northern California wine country" and has a short Hospitality design paragraph under Our services (draft for Katie to approve; The Velvet Hour is the only concept that supports it, and no built hospitality work exists yet). **Consultation (Katie, Nov 21, 2026):** not free. It is a 3-hour consultation package, and if the client proceeds, those hours are subtracted from their project fees. (Nov 24, 2026: Katie had the Contact page sentence about this removed; the page now only has a "Book a consultation" button; Nov 24: she also asked to drop the "Book a 3-hour consultation package" sentence from the page text. Ask before restating the fee credit on the site.) Price not given yet. Her outline and brochure still say "free consultation"; the brochure is out of date on this. Katie's business development class brochure describes the same focus.
+
+**Older draft (April 2026), now superseded:** Homeowners in the Bay Area looking for help furnishing and styling a home, from a single room to a whole house. Ask Katie who her ideal clients are and how they usually find her.
 
 ## Things we don't know yet
 

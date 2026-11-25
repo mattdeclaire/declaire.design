@@ -1,17 +1,18 @@
 /*
   Design tokens: every color, font, size and spacing value the site uses.
-  Change the look here first. These are PLACEHOLDER values carried over
-  from the April 2026 draft until the Claude Design redesign replaces them.
+  Change the look here first. Colors follow Katie's Nov 2026 direction:
+  white background, black text, and the terracotta from her logo.
+  Fonts and sizes are still placeholders from the April 2026 draft.
 */
 :root {
   /* Color */
-  --color-canvas: #FAFAF8;   /* page background */
-  --color-surface: #F2F0EC;  /* panels, cards */
-  --color-border: #E5E2DC;
-  --color-muted: #7D766B;    /* captions, labels */
-  --color-body: #4A4540;     /* running text */
-  --color-heading: #1C1917;
-  --color-accent: #8B7355;   /* links, buttons */
+  --color-canvas: #FFFFFF;   /* page background */
+  --color-surface: #F5F3F1;  /* panels, cards */
+  --color-border: #E0DDD9;
+  --color-muted: #5E5A55;    /* captions, labels */
+  --color-body: #03030D;     /* running text (black from the logo) */
+  --color-heading: #03030D;
+  --color-accent: #954C38;   /* links, buttons (terracotta from the logo) */
   --color-on-accent: #FFFFFF;
 
   /* Type */
@@ -34,4 +35,11 @@
   --content-width: 72rem;
   --text-width: 40rem;
   --radius: 2px;
+  --size-logo: 11rem;        /* header wordmark width */
+  --size-logo-mobile: 8.5rem;
+  --size-logo-mark: 4.5rem;  /* header DD monogram width, left of the wordmark */
+  --size-logo-mark-mobile: 3.5rem;
+  --size-monogram: 5rem;     /* footer DD monogram width */
+  --size-monogram-mobile: 4rem;
+  --size-carousel-button: 2.75rem;
 }

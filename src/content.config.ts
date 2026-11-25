@@ -1,27 +1,50 @@
-import { defineCollection } from 'astro:content';
+import { defineCollection, type SchemaContext } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
-// Portfolio projects. One folder per project in src/content/projects/,
-// holding index.md plus its photos. See CLAUDE.md for the format.
+// Projects and concept designs share one format: one folder per item holding
+// index.md plus its photos. See CLAUDE.md for the format.
+const projectSchema = ({ image }: SchemaContext) =>
+  z.object({
+    title: z.string(),
+    location: z.string().optional(),
+    year: z.number().int().optional(),
+    summary: z.string().optional(),
+    cover: image(),
+    coverAlt: z.string(),
+    coverCaption: z.string().optional(),
+    images: z
+      .array(z.object({ src: image(), alt: z.string(), group: z.string().optional(), caption: z.string().optional() }))
+      .default([]),
+    // Optional before and after pairs, shown in their own section on the project page.
+    beforeAfter: z
+      .array(
+        z.object({
+          room: z.string(),
+          before: image(),
+          beforeAlt: z.string(),
+          after: image(),
+          afterAlt: z.string(),
+        }),
+      )
+      .default([]),
+    services: z.array(z.string()).default([]),
+    featured: z.boolean().default(false),
+    draft: z.boolean().default(false),
+    order: z.number().default(100),
+  });
+
+// Built portfolio projects (src/content/projects/).
 const projects = defineCollection({
   loader: glob({ pattern: '*/index.md', base: './src/content/projects' }),
-  schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      location: z.string().optional(),
-      year: z.number().int().optional(),
-      summary: z.string().optional(),
-      cover: image(),
-      coverAlt: z.string(),
-      images: z
-        .array(z.object({ src: image(), alt: z.string() }))
-        .default([]),
-      services: z.array(z.string()).default([]),
-      featured: z.boolean().default(false),
-      draft: z.boolean().default(false),
-      order: z.number().default(100),
-    }),
+  schema: projectSchema,
+});
+
+// Concept designs: unbuilt proposals, shown on their own "Concept Designs" tab
+// (src/content/concepts/). Never mixed in with built projects.
+const concepts = defineCollection({
+  loader: glob({ pattern: '*/index.md', base: './src/content/concepts' }),
+  schema: projectSchema,
 });
 
 // Text pages (About, Services, Contact). One Markdown file each.
@@ -34,4 +57,16 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { projects, pages };
+// Journal posts: one folder per post holding index.md (src/content/journal/).
+// Use draft: true to keep a post off the site while it is in progress.
+const journal = defineCollection({
+  loader: glob({ pattern: '*/index.md', base: './src/content/journal' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    summary: z.string(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { projects, concepts, pages, journal };

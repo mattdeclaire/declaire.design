@@ -27,6 +27,16 @@ The current values in `src/styles/tokens.css` are placeholders carried over from
 - Some photos were taken by a professional photographer (Tahoe Cabin, likely real-estate listing photos). Check usage rights before publishing them.
 - Strip GPS and location data from every photo before committing it.
 
+## Direction set Nov 20, 2026 (Katie)
+
+- White background, black text. Accent is the terracotta from her logo (`#954C38`). Fonts are still the April 2026 placeholders.
+- Home page is a carousel of project photos. Header logo links home.
+- Social links in the footer on every page.
+
 ## Logo
+
+**Nov 2026 update:** the wordmark loses the corner lines (top right and bottom left) and a new DD sunburst monogram was made. Files are in [assets](assets): `logo-wordmark-2026.png`, `monogram-dd-sunburst.svg` and `.png`. The wordmark is used in the site header. The monogram isn't on the site yet.
+
+Older note:
 
 Only a small 188×80 PNG from 2023 exists. **Ask Katie** for the original or a vector version, or whether the redesign should include a new wordmark. The favicon set in `public/` is from 2025.

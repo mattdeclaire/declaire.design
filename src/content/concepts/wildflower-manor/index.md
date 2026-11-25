@@ -1,0 +1,105 @@
+---
+# TODO(Katie): the courtyard (08), second entry (09), library cafe (15), staff lounge (16), physicians' workroom (17) and suite bedroom (18), dining room (19, 21) and staff lounge (20) images are AI-generated and are shown with an "AI-generated visualization" caption. Three more AI images are still held back until she decides.
+title: Wildflower Manor
+location: Austin, TX
+year: 2026
+cover: ./08.jpg
+coverAlt: Concept visualization of a courtyard with a stone fountain, a tall oak tree, boxwood hedges, and residents chatting on wood benches, surrounded by glass-walled rooms
+coverCaption: Courtyard. AI-generated visualization.
+images:
+  - src: ./01.jpg
+    group: Entry
+    caption: 3D Rendering
+    alt: Concept rendering of an entry with a wood reception desk topped in white stone, a sage green wall, a small sitting area, and a planter with tall green leaves in the foreground
+  - src: ./09.jpg
+    group: Entry
+    caption: AI-generated visualization
+    alt: Entry lobby with a wood reception desk, a receptionist greeting a visitor, a woman reading in a green armchair, framed botanical prints on a sage green wall, and a leather planter with tall green plants
+  - src: ./03.jpg
+    group: Resident suite
+    caption: 3D Rendering
+    alt: Resident suite bedroom with soft green patterned wallpaper, a bed, an upholstered armchair, a wood desk, and French doors
+  - src: ./18.jpg
+    group: Resident suite
+    caption: AI-generated visualization
+    alt: Resident suite bedroom with soft green patterned wallpaper, framed botanical prints, a bed with white bedding, an upholstered armchair, and a man writing at a wood desk beside French doors that open to a patio and oak trees
+  - src: ./04.jpg
+    group: Resident suite
+    alt: Resident suite kitchenette with white cabinets, a small round table, and a recliner beside a glass-paneled partition
+  - src: ./05.jpg
+    group: Dining room
+    caption: 3D Rendering
+    alt: Dining area with curved green booths, wood-topped tables, and sunlight streaming in through a wall of windows
+  - src: ./19.jpg
+    group: Dining room
+    caption: AI-generated visualization
+    alt: Dining room with curved green booths and round wood tables where residents chat over coffee, an arched wood-framed opening to a large table beyond, and a wall of windows looking out on oak trees and wildflowers
+  - src: ./22.jpg
+    group: Dining room
+    caption: 3D Rendering
+    alt: Second dining space with curved dark green booths and round tables along a wall of windows, a wood planter with a tall plant in the foreground, and a long hallway with wood doors
+  - src: ./21.jpg
+    group: Dining room
+    caption: AI-generated visualization
+    alt: Second dining space with curved green booths where residents share coffee and pastries, a wall of windows opening onto a courtyard with boxwood hedges, a tree, and residents seated outside
+  - src: ./06.jpg
+    group: Physicians' office
+    caption: 3D Rendering
+    alt: Open physicians' office with white desks, gray task chairs, a sage green wall, and tall windows
+  - src: ./17.jpg
+    group: Physicians' office
+    caption: AI-generated visualization
+    alt: Physicians' workroom where doctors and nurses in scrubs and white coats work and talk at white desks, with a sage green wall, a marble-topped counter, and a wall of windows looking out on a large oak tree
+  - src: ./14.jpg
+    group: Library and internet cafe
+    caption: 3D Rendering
+    alt: View through open white shelving to a window wall with an orange armchair, a marble-topped table, and desks with privacy panels
+  - src: ./15.jpg
+    group: Library and internet cafe
+    caption: AI-generated visualization
+    alt: Library and cafe with white open shelving full of books, a woman working on a laptop at a white desk, a man pouring coffee at a marble-topped counter, and a wall of windows looking out on an oak tree and garden where residents walk
+  - src: ./13.jpg
+    group: Staff lounge
+    caption: 3D Rendering
+    alt: Staff lounge kitchen with white cabinets, a patterned tile backsplash, an island, a long dining table with brown chairs, and a window-side counter with stools
+  - src: ./16.jpg
+    group: Staff lounge
+    caption: AI-generated visualization
+    alt: Staff lounge where four healthcare staff in scrubs and a white coat talk around a long table with an orchid centerpiece, beside a coral wall of framed botanical prints, a white kitchen, and shelves holding anatomical models
+  - src: ./11.jpg
+    group: Staff lounge
+    caption: 3D Rendering
+    alt: Lounge by a wall of windows with a brown sofa, two tan armchairs, a lounge chair, a round coffee table, olive green high-back booths, and open shelving in the background
+  - src: ./20.jpg
+    group: Staff lounge
+    caption: AI-generated visualization
+    alt: Staff lounge with a wall of windows onto oak trees, where a woman in a blazer, two staff in scrubs and a man in a green polo talk with coffee in tan armchairs and an orange sofa, with open shelving of books behind them
+  - src: ./07.jpg
+    group: Floor plan
+    alt: Black-and-white floor plan of the community, with twelve resident suites, a dining room, a TV and game room, a library and internet cafe, exam rooms, and staff spaces
+services: []
+order: 2
+---
+
+At Wildflower Manor, we aspire to be more than just an active independent living facility. We aim to create a new home where deep roots are established, life flourishes, and every resident thrives. We view this stage of life not as a chapter closing, but as one opening, full of connection, purpose, and endless possibilities.
+
+Our core beliefs are that planting roots builds connection, which blooms into a community that makes one flourish with wellness.
+
+Almost all public and staff areas are on the north side of the building, and the residential spaces are on the south side. Both public and private spaces boast a biophilic design that immerses you in nature. From the moment you enter the reception area on the north side of the building, the skylit space and lush plants create a serene atmosphere.
+
+Next to the reception, on the left, are a public restroom and the manager's office. The three exam rooms and the RN room are tucked privately behind the receptionist's desk. The physicians' office, the admin office for three, and the staff lounge are located along the same northeast corner.
+
+Strolling through the two main corridors of the residential area, you'll encounter natural stone walls, vibrant greenery, and a soothing waterfall that runs along a charming pebble basin. Skylights in the reception and all of the corridors lighten the space for travel and help brighten everyone's day. The two main corridors are connected by an arched, skylit hallway, which joins the east and west suites without having to walk through the TV/game room. The restrooms are also along this corridor, providing more privacy while remaining easily accessible.
+
+At the heart of the community lies a shared residential patio, which connects to a variety of amenities:
+
+- Internet cafe and library
+- TV/game room
+- Restrooms
+- Kitchen
+- Admin office for assistance if needed
+- Dining room
+
+This strong connection to nature encourages residents to take walks and socialize, both of which are essential for mental and physical well-being.
+
+*The 3D renderings are views from my Revit model. The AI-generated visualizations show how each room could feel.*

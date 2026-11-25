@@ -1,0 +1,22 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProjectGrid from '../../components/ProjectGrid.astro';
+import { getConcepts } from '../../projects';
+
+const concepts = await getConcepts();
+const intro = await getEntry('pages', 'concepts');
+if (!intro) throw new Error('Missing src/content/pages/concepts.md');
+const { Content } = await render(intro);
+---
+<Base title={intro.data.title} description={intro.data.description}>
+  <section class="section container">
+    <h1>{intro.data.heading}</h1>
+    <div class="prose intro"><Content /></div>
+    <ProjectGrid projects={concepts} base="/concepts" concept />
+  </section>
+</Base>
+
+<style>
+  .intro { margin-bottom: var(--space-4); }
+</style>

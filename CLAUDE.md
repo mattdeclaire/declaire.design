@@ -14,6 +14,7 @@ This file and `brain/` cover the site and the repo. How to work with Katie in a 
 | To change… | Edit… |
 | --- | --- |
 | A project | `src/content/projects/<project>/index.md` and the photos next to it |
+| A concept design (own tab; label it "Concept Design", never mix with built projects) | `src/content/concepts/<name>/index.md` and the photos next to it; intro text in `src/content/pages/concepts.md` |
 | About or Contact text (add a Services page once Katie confirms the list) | `src/content/pages/<page>.md` |
 | Business name, tagline, email, Instagram, menu | `src/settings.json` |
 | Colors, fonts, sizes, spacing | `src/styles/tokens.css` |
